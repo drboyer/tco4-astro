@@ -1,0 +1,1116 @@
+{
+  "checked_at": "2026-10-31T15:48:39.554771+00:00",
+  "note": "Observations only. Failures may reflect bot blocking or temporary outages. No destinations were silently replaced.",
+  "results": [
+    {
+      "url": "http://apps.alexandriava.gov/MarinaCam/",
+      "status": 200,
+      "final_url": "http://apps.alexandriava.gov/MarinaCam/",
+      "https_candidate": {
+        "url": "https://apps.alexandriava.gov/MarinaCam/",
+        "status": 200,
+        "final_url": "https://apps.alexandriava.gov/MarinaCam/"
+      }
+    },
+    {
+      "url": "http://aviationweather.gov",
+      "status": 200,
+      "final_url": "https://aviationweather.gov/",
+      "https_candidate": {
+        "url": "https://aviationweather.gov",
+        "status": 200,
+        "final_url": "https://aviationweather.gov"
+      }
+    },
+    {
+      "url": "http://aviationweather.gov/",
+      "status": 200,
+      "final_url": "https://aviationweather.gov/",
+      "https_candidate": {
+        "url": "https://aviationweather.gov/",
+        "status": 200,
+        "final_url": "https://aviationweather.gov/"
+      }
+    },
+    {
+      "url": "http://bluehill.org/observatory/webcams/prudential-webcams/",
+      "status": 200,
+      "final_url": "http://bluehill.org/climate-weather/webcams/",
+      "https_candidate": {
+        "url": "https://bluehill.org/observatory/webcams/prudential-webcams/",
+        "status": 200,
+        "final_url": "https://bluehill.org/climate-weather/webcams/"
+      }
+    },
+    {
+      "url": "http://books.google.com/books?id=hgLccSb8DIUC&pg=PA200&lpg=PA200&dq=tornado+blunt+head+trauma&source=bl&ots=lJ0t8HYh2e&sig=ONz9QSg4dPvw2UerwJ_ru4ONV7E&hl=en&sa=X&ei=fNB3T8_KLIaTgweav4n9Dg&ved=0CDwQ6AEwAQ",
+      "status": 200,
+      "final_url": "https://books.google.com/books?id=hgLccSb8DIUC&pg=PA200&lpg=PA200&dq=tornado+blunt+head+trauma&source=bl&ots=lJ0t8HYh2e&sig=ONz9QSg4dPvw2UerwJ_ru4ONV7E&hl=en&sa=X&ei=fNB3T8_KLIaTgweav4n9Dg",
+      "https_candidate": {
+        "url": "https://books.google.com/books?id=hgLccSb8DIUC&pg=PA200&lpg=PA200&dq=tornado+blunt+head+trauma&source=bl&ots=lJ0t8HYh2e&sig=ONz9QSg4dPvw2UerwJ_ru4ONV7E&hl=en&sa=X&ei=fNB3T8_KLIaTgweav4n9Dg&ved=0CDwQ6AEwAQ",
+        "status": 200,
+        "final_url": "https://books.google.com/books?id=hgLccSb8DIUC&pg=PA200&lpg=PA200&dq=tornado+blunt+head+trauma&source=bl&ots=lJ0t8HYh2e&sig=ONz9QSg4dPvw2UerwJ_ru4ONV7E&hl=en&sa=X&ei=fNB3T8_KLIaTgweav4n9Dg&ved=0CDwQ6AEwAQ"
+      }
+    },
+    {
+      "url": "http://boringpittsburgh.com/social-pgh/thats-pittsburgh/",
+      "status": 500,
+      "final_url": "http://boringpittsburgh.com/social-pgh/thats-pittsburgh/",
+      "https_candidate": {
+        "url": "https://boringpittsburgh.com/social-pgh/thats-pittsburgh/",
+        "status": null,
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'boringpittsburgh.com'. (_ssl.c:1007)>"
+      }
+    },
+    {
+      "url": "http://breatheproject.org/learn/breathe-cam/",
+      "status": 200,
+      "final_url": "https://breatheproject.org/breathe-cam/",
+      "https_candidate": {
+        "url": "https://breatheproject.org/learn/breathe-cam/",
+        "status": 200,
+        "final_url": "https://breatheproject.org/breathe-cam/"
+      }
+    },
+    {
+      "url": "http://creativecommons.org/licenses/by-sa/3.0",
+      "status": 200,
+      "final_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "https_candidate": {
+        "url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "status": 200,
+        "final_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "url": "http://digitalmeteorologist.wordpress.com/2011/08/16/smarter-phones-smarter-weather/",
+      "status": 200,
+      "final_url": "https://digitalmeteorologist.wordpress.com/2011/08/16/smarter-phones-smarter-weather/",
+      "https_candidate": {
+        "url": "https://digitalmeteorologist.wordpress.com/2011/08/16/smarter-phones-smarter-weather/",
+        "status": 200,
+        "final_url": "https://digitalmeteorologist.wordpress.com/2011/08/16/smarter-phones-smarter-weather/"
+      }
+    },
+    {
+      "url": "http://dsc.discovery.com/tv-shows/storm-chasers",
+      "status": 403,
+      "final_url": "http://www.discovery.com/tv-shows/storm-chasers",
+      "https_candidate": {
+        "url": "https://dsc.discovery.com/tv-shows/storm-chasers",
+        "status": null,
+        "error": "<urlopen error [Errno 111] Connection refused>"
+      }
+    },
+    {
+      "url": "http://en.wikipedia.org/wiki/Indiana_State_Fair_stage_collapse",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Indiana_State_Fair_stage_collapse",
+      "https_candidate": {
+        "url": "https://en.wikipedia.org/wiki/Indiana_State_Fair_stage_collapse",
+        "status": 200,
+        "final_url": "https://en.wikipedia.org/wiki/Indiana_State_Fair_stage_collapse"
+      }
+    },
+    {
+      "url": "http://en.wikipedia.org/wiki/Inversion_%28meteorology%29",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Inversion_%28meteorology%29",
+      "https_candidate": {
+        "url": "https://en.wikipedia.org/wiki/Inversion_%28meteorology%29",
+        "status": 200,
+        "final_url": "https://en.wikipedia.org/wiki/Inversion_%28meteorology%29"
+      }
+    },
+    {
+      "url": "http://en.wikipedia.org/wiki/Johnstown_Flood",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Johnstown_Flood",
+      "https_candidate": {
+        "url": "https://en.wikipedia.org/wiki/Johnstown_Flood",
+        "status": 200,
+        "final_url": "https://en.wikipedia.org/wiki/Johnstown_Flood"
+      }
+    },
+    {
+      "url": "http://en.wikipedia.org/wiki/Lake_effect",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Lake_effect",
+      "https_candidate": {
+        "url": "https://en.wikipedia.org/wiki/Lake_effect",
+        "status": 200,
+        "final_url": "https://en.wikipedia.org/wiki/Lake_effect"
+      }
+    },
+    {
+      "url": "http://en.wikipedia.org/wiki/List_of_SPC_High_Risk_days",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/List_of_SPC_High_Risk_days",
+      "https_candidate": {
+        "url": "https://en.wikipedia.org/wiki/List_of_SPC_High_Risk_days",
+        "status": 200,
+        "final_url": "https://en.wikipedia.org/wiki/List_of_SPC_High_Risk_days"
+      }
+    },
+    {
+      "url": "http://en.wikipedia.org/wiki/METAR",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/METAR",
+      "https_candidate": {
+        "url": "https://en.wikipedia.org/wiki/METAR",
+        "status": 200,
+        "final_url": "https://en.wikipedia.org/wiki/METAR"
+      }
+    },
+    {
+      "url": "http://en.wikipedia.org/wiki/Net_neutrality",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Net_neutrality",
+      "https_candidate": {
+        "url": "https://en.wikipedia.org/wiki/Net_neutrality",
+        "status": 200,
+        "final_url": "https://en.wikipedia.org/wiki/Net_neutrality"
+      }
+    },
+    {
+      "url": "http://en.wikipedia.org/wiki/Season",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Season",
+      "https_candidate": {
+        "url": "https://en.wikipedia.org/wiki/Season",
+        "status": 200,
+        "final_url": "https://en.wikipedia.org/wiki/Season"
+      }
+    },
+    {
+      "url": "http://en.wikipedia.org/wiki/White_Christmas",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/White_Christmas",
+      "https_candidate": {
+        "url": "https://en.wikipedia.org/wiki/White_Christmas",
+        "status": 200,
+        "final_url": "https://en.wikipedia.org/wiki/White_Christmas"
+      }
+    },
+    {
+      "url": "http://explorepahistory.com/displayimage.php?imgId=1-2-448",
+      "status": 200,
+      "final_url": "https://explorepahistory.com/displayimage.php%3FimgId=1-2-448.html",
+      "https_candidate": {
+        "url": "https://explorepahistory.com/displayimage.php?imgId=1-2-448",
+        "status": 200,
+        "final_url": "https://explorepahistory.com/displayimage.php%3FimgId=1-2-448.html"
+      }
+    },
+    {
+      "url": "http://itunes.apple.com/us/app/imapweather-radio/id413511993?mt=8",
+      "status": 404,
+      "final_url": "https://apps.apple.com/us/app/imapweather-radio/id413511993",
+      "https_candidate": {
+        "url": "https://itunes.apple.com/us/app/imapweather-radio/id413511993?mt=8",
+        "status": 404,
+        "final_url": "https://apps.apple.com/us/app/imapweather-radio/id413511993"
+      }
+    },
+    {
+      "url": "http://lifehacker.com/what-pittsburghers-know-about-the-environment-that-trum-1795741450",
+      "status": 200,
+      "final_url": "https://lifehacker.com/what-pittsburghers-know-about-the-environment-that-trum-1795741450",
+      "https_candidate": {
+        "url": "https://lifehacker.com/what-pittsburghers-know-about-the-environment-that-trum-1795741450",
+        "status": 200,
+        "final_url": "https://lifehacker.com/what-pittsburghers-know-about-the-environment-that-trum-1795741450"
+      }
+    },
+    {
+      "url": "http://maps.google.com/maps?q=39.0060+N,+120.9861+W&hl=en&ll=38.924161,-120.92823&spn=0.236915,0.528374&sll=38.9569,-120.506&sspn=0.029601,0.066047&t=p&z=12",
+      "status": 200,
+      "final_url": "https://www.google.com:443/maps?q=39.0060+N,+120.9861+W&hl=en&ll=38.924161,-120.92823&spn=0.236915,0.528374&sll=38.9569,-120.506&sspn=0.029601,0.066047&t=p&z=12",
+      "https_candidate": {
+        "url": "https://maps.google.com/maps?q=39.0060+N,+120.9861+W&hl=en&ll=38.924161,-120.92823&spn=0.236915,0.528374&sll=38.9569,-120.506&sspn=0.029601,0.066047&t=p&z=12",
+        "status": 200,
+        "final_url": "https://www.google.com/maps?q=39.0060+N,+120.9861+W&hl=en&ll=38.924161,-120.92823&spn=0.236915,0.528374&sll=38.9569,-120.506&sspn=0.029601,0.066047&t=p&z=12"
+      }
+    },
+    {
+      "url": "http://meteorologicalmusings.blogspot.com/2011/03/hail-spike-on-radar.html",
+      "status": 200,
+      "final_url": "https://www.mikesmithenterprisesblog.com/2011/03/hail-spike-on-radar.html",
+      "https_candidate": {
+        "url": "https://meteorologicalmusings.blogspot.com/2011/03/hail-spike-on-radar.html",
+        "status": 200,
+        "final_url": "https://www.mikesmithenterprisesblog.com/2011/03/hail-spike-on-radar.html"
+      }
+    },
+    {
+      "url": "http://meteorologicalmusings.blogspot.com/2011/08/fundamental-problem-at-indiana-state.html",
+      "status": 200,
+      "final_url": "https://www.mikesmithenterprisesblog.com/2011/08/fundamental-problem-at-indiana-state.html",
+      "https_candidate": {
+        "url": "https://meteorologicalmusings.blogspot.com/2011/08/fundamental-problem-at-indiana-state.html",
+        "status": 200,
+        "final_url": "https://www.mikesmithenterprisesblog.com/2011/08/fundamental-problem-at-indiana-state.html"
+      }
+    },
+    {
+      "url": "http://mp1.met.psu.edu/~fxg1/ewall.html",
+      "status": null,
+      "error": "<urlopen error [Errno 101] Network is unreachable>",
+      "https_candidate": {
+        "url": "https://mp1.met.psu.edu/~fxg1/ewall.html",
+        "status": null,
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "url": "http://online.wsj.com/article/SB10001424052748703727804576017592259031536.html?mod=ITP_fridayjournal_0",
+      "status": 401,
+      "final_url": "https://www.wsj.com/articles/SB10001424052748703727804576017592259031536",
+      "https_candidate": {
+        "url": "https://online.wsj.com/article/SB10001424052748703727804576017592259031536.html?mod=ITP_fridayjournal_0",
+        "status": 401,
+        "final_url": "https://www.wsj.com/articles/SB10001424052748703727804576017592259031536"
+      }
+    },
+    {
+      "url": "http://pittransformed.com/",
+      "status": 200,
+      "final_url": "https://flypittsburgh.com/pittsburgh-international-airport/terminal-info/transformed-pit/",
+      "https_candidate": {
+        "url": "https://pittransformed.com/",
+        "status": 200,
+        "final_url": "https://flypittsburgh.com/pittsburgh-international-airport/terminal-info/transformed-pit/"
+      }
+    },
+    {
+      "url": "http://pittsburgh.cbslocal.com/2011/03/24/storms-high-winds-damage-parts-of-western-pa/",
+      "status": 200,
+      "final_url": "https://www.cbsnews.com/pittsburgh/news/storms-high-winds-damage-parts-of-western-pa/",
+      "https_candidate": {
+        "url": "https://pittsburgh.cbslocal.com/2011/03/24/storms-high-winds-damage-parts-of-western-pa/",
+        "status": 200,
+        "final_url": "https://www.cbsnews.com/pittsburgh/news/storms-high-winds-damage-parts-of-western-pa/"
+      }
+    },
+    {
+      "url": "http://posttrib.suntimes.com/news/7111335-418/indiana-state-fairs-single-page-emergency-plan-shorter-than-some.html",
+      "status": null,
+      "error": "<urlopen error [Errno -2] Name or service not known>",
+      "https_candidate": {
+        "url": "https://posttrib.suntimes.com/news/7111335-418/indiana-state-fairs-single-page-emergency-plan-shorter-than-some.html",
+        "status": null,
+        "error": "<urlopen error [Errno -2] Name or service not known>"
+      }
+    },
+    {
+      "url": "http://psuchase.org",
+      "status": null,
+      "error": "<urlopen error [Errno -2] Name or service not known>",
+      "https_candidate": {
+        "url": "https://psuchase.org",
+        "status": null,
+        "error": "<urlopen error [Errno -2] Name or service not known>"
+      }
+    },
+    {
+      "url": "http://roadstothefuture.com/main.html",
+      "status": 200,
+      "final_url": "https://roadstothefuture.com/main.html",
+      "https_candidate": {
+        "url": "https://roadstothefuture.com/main.html",
+        "status": 200,
+        "final_url": "https://roadstothefuture.com/main.html"
+      }
+    },
+    {
+      "url": "http://spc.noaa.gov/climo/gmf.php?rpt=120403_rpts_filtered",
+      "status": 500,
+      "final_url": "https://www.spc.noaa.gov/climo/gmf.php?rpt=120403_rpts_filtered",
+      "https_candidate": {
+        "url": "https://spc.noaa.gov/climo/gmf.php?rpt=120403_rpts_filtered",
+        "status": 500,
+        "final_url": "https://www.spc.noaa.gov/climo/gmf.php?rpt=120403_rpts_filtered"
+      }
+    },
+    {
+      "url": "http://stormsellweather.com/weatherwall/themapwall.html",
+      "status": 200,
+      "final_url": "http://stormsellweather.com/weatherwall/",
+      "https_candidate": {
+        "url": "https://stormsellweather.com/weatherwall/themapwall.html",
+        "status": 200,
+        "final_url": "http://stormsellweather.com/weatherwall/"
+      }
+    },
+    {
+      "url": "http://t.co/H0e0l3WL",
+      "status": 520,
+      "final_url": "http://t.co/H0e0l3WL",
+      "https_candidate": {
+        "url": "https://t.co/H0e0l3WL",
+        "status": null,
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'yfrog.com'. (_ssl.c:1007)>"
+      }
+    },
+    {
+      "url": "http://thebostonwebcam.com/",
+      "status": 200,
+      "final_url": "https://thebostonwebcam.com/",
+      "https_candidate": {
+        "url": "https://thebostonwebcam.com/",
+        "status": 200,
+        "final_url": "https://thebostonwebcam.com/"
+      }
+    },
+    {
+      "url": "http://weather.cod.edu/satrad/",
+      "status": 200,
+      "final_url": "https://weather.cod.edu/satrad/",
+      "https_candidate": {
+        "url": "https://weather.cod.edu/satrad/",
+        "status": 200,
+        "final_url": "https://weather.cod.edu/satrad/"
+      }
+    },
+    {
+      "url": "http://www.amazon.com/Tornado-Watch-Number-Grant-Fuller/dp/0688065902/ref=sr_1_1?s=books&ie=UTF8&qid=1401586188&sr=1-1&keywords=tornado+watch+211",
+      "status": 200,
+      "final_url": "https://www.amazon.com/Tornado-Watch-Number-Grant-Fuller/dp/0688065902/ref=sr_1_1?s=books&ie=UTF8&qid=1401586188&sr=1-1&keywords=tornado+watch+211",
+      "https_candidate": {
+        "url": "https://www.amazon.com/Tornado-Watch-Number-Grant-Fuller/dp/0688065902/ref=sr_1_1?s=books&ie=UTF8&qid=1401586188&sr=1-1&keywords=tornado+watch+211",
+        "status": 200,
+        "final_url": "https://www.amazon.com/Tornado-Watch-Number-Grant-Fuller/dp/0688065902/ref=sr_1_1?s=books&ie=UTF8&qid=1401586188&sr=1-1&keywords=tornado+watch+211"
+      }
+    },
+    {
+      "url": "http://www.angelfire.com/pa/pawx/053198/053198.html",
+      "status": null,
+      "error": "<urlopen error [Errno -2] Name or service not known>",
+      "https_candidate": {
+        "url": "https://www.angelfire.com/pa/pawx/053198/053198.html",
+        "status": null,
+        "error": "<urlopen error [Errno -2] Name or service not known>"
+      }
+    },
+    {
+      "url": "http://www.bizjournals.com/pittsburgh/news/2016/07/14/clean-energy-jobs-up-15-percent-in-pennsylvania.html",
+      "status": 403,
+      "final_url": "https://www.bizjournals.com/pittsburgh/news/2016/07/14/clean-energy-jobs-up-15-percent-in-pennsylvania.html",
+      "https_candidate": {
+        "url": "https://www.bizjournals.com/pittsburgh/news/2016/07/14/clean-energy-jobs-up-15-percent-in-pennsylvania.html",
+        "status": 403,
+        "final_url": "https://www.bizjournals.com/pittsburgh/news/2016/07/14/clean-energy-jobs-up-15-percent-in-pennsylvania.html"
+      }
+    },
+    {
+      "url": "http://www.campusweatherservice.com",
+      "status": 200,
+      "final_url": "https://cws.met.psu.edu/",
+      "https_candidate": {
+        "url": "https://www.campusweatherservice.com",
+        "status": 200,
+        "final_url": "https://cws.met.psu.edu/"
+      }
+    },
+    {
+      "url": "http://www.campusweatherservice.com/",
+      "status": 200,
+      "final_url": "https://cws.met.psu.edu/",
+      "https_candidate": {
+        "url": "https://www.campusweatherservice.com/",
+        "status": 200,
+        "final_url": "https://cws.met.psu.edu/"
+      }
+    },
+    {
+      "url": "http://www.erh.noaa.gov/pbz/christmas/wcinfo.pdf",
+      "status": null,
+      "error": "<urlopen error timed out>",
+      "https_candidate": {
+        "url": "https://www.erh.noaa.gov/pbz/christmas/wcinfo.pdf",
+        "status": null,
+        "error": "<urlopen error timed out>"
+      }
+    },
+    {
+      "url": "http://www.facebook.com/PaperTongues",
+      "status": 200,
+      "final_url": "https://www.facebook.com/PaperTongues",
+      "https_candidate": {
+        "url": "https://www.facebook.com/PaperTongues",
+        "status": 200,
+        "final_url": "https://www.facebook.com/PaperTongues"
+      }
+    },
+    {
+      "url": "http://www.facebook.com/media/set/?set=a.233517350025642.61407.100001021352237",
+      "status": 200,
+      "final_url": "https://www.facebook.com/media/set/?set=a.233517350025642.61407.100001021352237",
+      "https_candidate": {
+        "url": "https://www.facebook.com/media/set/?set=a.233517350025642.61407.100001021352237",
+        "status": 200,
+        "final_url": "https://www.facebook.com/media/set/?set=a.233517350025642.61407.100001021352237"
+      }
+    },
+    {
+      "url": "http://www.facebook.com/pages/Protect-the-National-Weather-Service/193060867385939",
+      "status": 200,
+      "final_url": "https://www.facebook.com/projectweather/",
+      "https_candidate": {
+        "url": "https://www.facebook.com/pages/Protect-the-National-Weather-Service/193060867385939",
+        "status": 200,
+        "final_url": "https://www.facebook.com/projectweather/"
+      }
+    },
+    {
+      "url": "http://www.foxnews.com/weather/2011/08/16/gustnado-may-have-caused-deadly-indiana-stage-collapse/",
+      "status": 404,
+      "final_url": "https://www.foxnews.com/weather/2011/08/16/gustnado-may-have-caused-deadly-indiana-stage-collapse",
+      "https_candidate": {
+        "url": "https://www.foxnews.com/weather/2011/08/16/gustnado-may-have-caused-deadly-indiana-stage-collapse/",
+        "status": 404,
+        "final_url": "https://www.foxnews.com/weather/2011/08/16/gustnado-may-have-caused-deadly-indiana-stage-collapse/"
+      }
+    },
+    {
+      "url": "http://www.google.org/publicalerts/alert?aid=b26a0d85ac27cc10&hl=en-US&gl=US&source=maps-sp",
+      "status": 404,
+      "final_url": "http://www.google.org/publicalerts/alert?aid=b26a0d85ac27cc10&hl=en-US&gl=US&source=maps-sp",
+      "https_candidate": {
+        "url": "https://www.google.org/publicalerts/alert?aid=b26a0d85ac27cc10&hl=en-US&gl=US&source=maps-sp",
+        "status": 404,
+        "final_url": "https://www.google.org/publicalerts/alert?aid=b26a0d85ac27cc10&hl=en-US&gl=US&source=maps-sp"
+      }
+    },
+    {
+      "url": "http://www.huffingtonpost.com/paul-douglas/tornados-climate-change_b_1403642.html",
+      "status": 200,
+      "final_url": "https://www.huffpost.com/entry/tornados-climate-change_b_1403642",
+      "https_candidate": {
+        "url": "https://www.huffingtonpost.com/paul-douglas/tornados-climate-change_b_1403642.html",
+        "status": 200,
+        "final_url": "https://www.huffpost.com/entry/tornados-climate-change_b_1403642"
+      }
+    },
+    {
+      "url": "http://www.jaha.org/FloodMuseum/oklahoma.html",
+      "status": 200,
+      "final_url": "https://www.heritagejohnstown.org/attractions/johnstown-flood-museum/",
+      "https_candidate": {
+        "url": "https://www.jaha.org/FloodMuseum/oklahoma.html",
+        "status": 200,
+        "final_url": "https://www.heritagejohnstown.org/attractions/johnstown-flood-museum/"
+      }
+    },
+    {
+      "url": "http://www.kurumi.com/roads/3di/index.html",
+      "status": 200,
+      "final_url": "http://www.kurumi.com/roads/3di/index.html",
+      "https_candidate": {
+        "url": "https://www.kurumi.com/roads/3di/index.html",
+        "status": 200,
+        "final_url": "https://www.kurumi.com/roads/3di/index.html"
+      }
+    },
+    {
+      "url": "http://www.meetup.com/maptime-boston/",
+      "status": 200,
+      "final_url": "https://www.meetup.com/maptime-boston/",
+      "https_candidate": {
+        "url": "https://www.meetup.com/maptime-boston/",
+        "status": 200,
+        "final_url": "https://www.meetup.com/maptime-boston/"
+      }
+    },
+    {
+      "url": "http://www.nextpittsburgh.com/latest-news/1-1-billion-redevelopment-slated-airport/",
+      "status": 200,
+      "final_url": "https://nextpittsburgh.com/latest-news/1-1-billion-redevelopment-slated-airport/",
+      "https_candidate": {
+        "url": "https://www.nextpittsburgh.com/latest-news/1-1-billion-redevelopment-slated-airport/",
+        "status": 200,
+        "final_url": "https://nextpittsburgh.com/latest-news/1-1-billion-redevelopment-slated-airport/"
+      }
+    },
+    {
+      "url": "http://www.nextpittsburgh.com/latest-news/amazon-become-one-pittsburghs-biggest-employers/",
+      "status": 200,
+      "final_url": "https://nextpittsburgh.com/latest-news/amazon-become-one-pittsburghs-biggest-employers/",
+      "https_candidate": {
+        "url": "https://www.nextpittsburgh.com/latest-news/amazon-become-one-pittsburghs-biggest-employers/",
+        "status": 200,
+        "final_url": "https://nextpittsburgh.com/latest-news/amazon-become-one-pittsburghs-biggest-employers/"
+      }
+    },
+    {
+      "url": "http://www.nohrsc.nws.gov/interactive/html/map.html",
+      "status": null,
+      "error": "<urlopen error [Errno -5] No address associated with hostname>",
+      "https_candidate": {
+        "url": "https://www.nohrsc.nws.gov/interactive/html/map.html",
+        "status": null,
+        "error": "<urlopen error [Errno -5] No address associated with hostname>"
+      }
+    },
+    {
+      "url": "http://www.nws.noaa.gov/mdl/synop/products/bullform.all.php",
+      "status": 403,
+      "final_url": "http://www.nws.noaa.gov/mdl/synop/products/bullform.all.php",
+      "https_candidate": {
+        "url": "https://www.nws.noaa.gov/mdl/synop/products/bullform.all.php",
+        "status": 403,
+        "final_url": "https://www.nws.noaa.gov/mdl/synop/products/bullform.all.php"
+      }
+    },
+    {
+      "url": "http://www.pahighways.com/",
+      "status": 200,
+      "final_url": "https://www.pahighways.com/",
+      "https_candidate": {
+        "url": "https://www.pahighways.com/",
+        "status": 200,
+        "final_url": "https://www.pahighways.com/"
+      }
+    },
+    {
+      "url": "http://www.pittsburghlive.com/x/pittsburghtrib/news/westmoreland/s_482490.html",
+      "status": 404,
+      "final_url": "http://www.pittsburghlive.com/x/pittsburghtrib/news/westmoreland/s_482490.html",
+      "https_candidate": {
+        "url": "https://www.pittsburghlive.com/x/pittsburghtrib/news/westmoreland/s_482490.html",
+        "status": null,
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pittsburghlive.com'. (_ssl.c:1007)>"
+      }
+    },
+    {
+      "url": "http://www.pittsburghlive.com/x/pittsburghtrib/news/westmoreland/s_728837.html",
+      "status": 404,
+      "final_url": "http://www.pittsburghlive.com/x/pittsburghtrib/news/westmoreland/s_728837.html",
+      "https_candidate": {
+        "url": "https://www.pittsburghlive.com/x/pittsburghtrib/news/westmoreland/s_728837.html",
+        "status": null,
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pittsburghlive.com'. (_ssl.c:1007)>"
+      }
+    },
+    {
+      "url": "http://www.post-gazette.com/local/region/2017/06/01/Politicians-political-reporters-react-Trump-Pittsburgh-Paris-Accord/stories/201706010203",
+      "status": 200,
+      "final_url": "https://www.post-gazette.com/local/region/2017/06/01/Politicians-political-reporters-react-Trump-Pittsburgh-Paris-Accord/stories/201706010203",
+      "https_candidate": {
+        "url": "https://www.post-gazette.com/local/region/2017/06/01/Politicians-political-reporters-react-Trump-Pittsburgh-Paris-Accord/stories/201706010203",
+        "status": 200,
+        "final_url": "https://www.post-gazette.com/local/region/2017/06/01/Politicians-political-reporters-react-Trump-Pittsburgh-Paris-Accord/stories/201706010203"
+      }
+    },
+    {
+      "url": "http://www.spc.noaa.gov/climo/reports/110323_rpts.html",
+      "status": 200,
+      "final_url": "https://www.spc.noaa.gov/climo/reports/110323_rpts.html",
+      "https_candidate": {
+        "url": "https://www.spc.noaa.gov/climo/reports/110323_rpts.html",
+        "status": 200,
+        "final_url": "https://www.spc.noaa.gov/climo/reports/110323_rpts.html"
+      }
+    },
+    {
+      "url": "http://www.spc.noaa.gov/products/outlook/archive/2010/day1otlk_20101026_1300.html",
+      "status": 200,
+      "final_url": "https://www.spc.noaa.gov/products/outlook/archive/2010/day1otlk_20101026_1300.html",
+      "https_candidate": {
+        "url": "https://www.spc.noaa.gov/products/outlook/archive/2010/day1otlk_20101026_1300.html",
+        "status": 200,
+        "final_url": "https://www.spc.noaa.gov/products/outlook/archive/2010/day1otlk_20101026_1300.html"
+      }
+    },
+    {
+      "url": "http://www.swpc.noaa.gov/",
+      "status": null,
+      "error": "<urlopen error [Errno -2] Name or service not known>",
+      "https_candidate": {
+        "url": "https://www.swpc.noaa.gov/",
+        "status": 200,
+        "final_url": "https://www.spaceweather.gov/"
+      }
+    },
+    {
+      "url": "http://www.texasstormchasers.com/2011/03/23/greensburg-pa-tornado/",
+      "status": 404,
+      "final_url": "https://texasstormchasers.com/2011/03/23/greensburg-pa-tornado/",
+      "https_candidate": {
+        "url": "https://www.texasstormchasers.com/2011/03/23/greensburg-pa-tornado/",
+        "status": 404,
+        "final_url": "https://texasstormchasers.com/2011/03/23/greensburg-pa-tornado/"
+      }
+    },
+    {
+      "url": "http://www.theweatherprediction.com/thermo/skewt/",
+      "status": 200,
+      "final_url": "http://www.theweatherprediction.com/thermo/skewt/",
+      "https_candidate": {
+        "url": "https://www.theweatherprediction.com/thermo/skewt/",
+        "status": 200,
+        "final_url": "https://www.theweatherprediction.com/thermo/skewt/"
+      }
+    },
+    {
+      "url": "http://www.tropicaltidbits.com/analysis/models/",
+      "status": 200,
+      "final_url": "https://www.tropicaltidbits.com/analysis/models/",
+      "https_candidate": {
+        "url": "https://www.tropicaltidbits.com/analysis/models/",
+        "status": 200,
+        "final_url": "https://www.tropicaltidbits.com/analysis/models/"
+      }
+    },
+    {
+      "url": "http://www.twisterdata.com/",
+      "status": 200,
+      "final_url": "https://www.twisterdata.com/",
+      "https_candidate": {
+        "url": "https://www.twisterdata.com/",
+        "status": 200,
+        "final_url": "https://www.twisterdata.com/"
+      }
+    },
+    {
+      "url": "http://www.usatoday.com/weather/storms/tornadoes/story/2012-04-02/new-tornado-warnings/53946346/1",
+      "status": 402,
+      "final_url": "https://www.usatoday.com/weather/storms/tornadoes/story/2012-04-02/new-tornado-warnings/53946346/1",
+      "https_candidate": {
+        "url": "https://www.usatoday.com/weather/storms/tornadoes/story/2012-04-02/new-tornado-warnings/53946346/1",
+        "status": 402,
+        "final_url": "https://www.usatoday.com/weather/storms/tornadoes/story/2012-04-02/new-tornado-warnings/53946346/1"
+      }
+    },
+    {
+      "url": "http://www.washingtonpost.com/blogs/capital-weather-gang/wp/2013/06/01/the-night-that-should-change-tornado-actions-and-storm-chasing-forever/",
+      "status": null,
+      "error": "timed out",
+      "https_candidate": {
+        "url": "https://www.washingtonpost.com/blogs/capital-weather-gang/wp/2013/06/01/the-night-that-should-change-tornado-actions-and-storm-chasing-forever/",
+        "status": null,
+        "error": "The read operation timed out"
+      }
+    },
+    {
+      "url": "http://www.washingtonpost.com/wp-dyn/content/article/2010/08/27/AR2010082702131.html",
+      "status": null,
+      "error": "timed out",
+      "https_candidate": {
+        "url": "https://www.washingtonpost.com/wp-dyn/content/article/2010/08/27/AR2010082702131.html",
+        "status": null,
+        "error": "The read operation timed out"
+      }
+    },
+    {
+      "url": "http://www.weather.gov/climate/index.php?wfo=ctp",
+      "status": 200,
+      "final_url": "https://www.weather.gov/climate/index.php?wfo=ctp",
+      "https_candidate": {
+        "url": "https://www.weather.gov/climate/index.php?wfo=ctp",
+        "status": 200,
+        "final_url": "https://www.weather.gov/climate/index.php?wfo=ctp"
+      }
+    },
+    {
+      "url": "http://www.weathersourcepa.com/blog/summary-blogs-indiana-state-fair-stage-collapse",
+      "status": null,
+      "error": "<urlopen error [Errno -2] Name or service not known>",
+      "https_candidate": {
+        "url": "https://www.weathersourcepa.com/blog/summary-blogs-indiana-state-fair-stage-collapse",
+        "status": null,
+        "error": "<urlopen error [Errno -2] Name or service not known>"
+      }
+    },
+    {
+      "url": "http://www.wsbradio.com/news/news/doc-helmets-baby-carries-saved-kids-storm/nJJPd/",
+      "status": 404,
+      "final_url": "https://www.wsbradio.com/news/news/doc-helmets-baby-carries-saved-kids-storm/nJJPd/",
+      "https_candidate": {
+        "url": "https://www.wsbradio.com/news/news/doc-helmets-baby-carries-saved-kids-storm/nJJPd/",
+        "status": 404,
+        "final_url": "https://www.wsbradio.com/news/news/doc-helmets-baby-carries-saved-kids-storm/nJJPd/"
+      }
+    },
+    {
+      "url": "http://www.wtae.com/weather/27298070/detail.html",
+      "status": 404,
+      "final_url": "https://www.wtae.com/weather/27298070/detail.html",
+      "https_candidate": {
+        "url": "https://www.wtae.com/weather/27298070/detail.html",
+        "status": 404,
+        "final_url": "https://www.wtae.com/weather/27298070/detail.html"
+      }
+    },
+    {
+      "url": "http://www.wunderground.com/",
+      "status": 200,
+      "final_url": "https://www.wunderground.com/",
+      "https_candidate": {
+        "url": "https://www.wunderground.com/",
+        "status": 200,
+        "final_url": "https://www.wunderground.com/"
+      }
+    },
+    {
+      "url": "http://www.wunderground.com/radar/help.asp",
+      "status": 200,
+      "final_url": "https://www.wunderground.com/prepare/understanding-radar",
+      "https_candidate": {
+        "url": "https://www.wunderground.com/radar/help.asp",
+        "status": 200,
+        "final_url": "https://www.wunderground.com/prepare/understanding-radar"
+      }
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=dTAAsCNK7RA",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=dTAAsCNK7RA",
+      "https_candidate": {
+        "url": "https://www.youtube.com/watch?v=dTAAsCNK7RA",
+        "status": 200,
+        "final_url": "https://www.youtube.com/watch?v=dTAAsCNK7RA"
+      }
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=nHlJODYBLKs&hd=1",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=nHlJODYBLKs&hd=1",
+      "https_candidate": {
+        "url": "https://www.youtube.com/watch?v=nHlJODYBLKs&hd=1",
+        "status": 200,
+        "final_url": "https://www.youtube.com/watch?v=nHlJODYBLKs&hd=1"
+      }
+    },
+    {
+      "url": "http://www.youtube.com/watch?v=qybUFnY7Y8w&hd=1",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=qybUFnY7Y8w&hd=1",
+      "https_candidate": {
+        "url": "https://www.youtube.com/watch?v=qybUFnY7Y8w&hd=1",
+        "status": 200,
+        "final_url": "https://www.youtube.com/watch?v=qybUFnY7Y8w&hd=1"
+      }
+    },
+    {
+      "url": "http://wxbrad.com/?p=1450",
+      "status": 200,
+      "final_url": "https://wxbrad.com/indiana-state-fair-incident-was-no-fluke/",
+      "https_candidate": {
+        "url": "https://wxbrad.com/?p=1450",
+        "status": 200,
+        "final_url": "https://wxbrad.com/indiana-state-fair-incident-was-no-fluke/"
+      }
+    },
+    {
+      "url": "https://apnews.com/0cafd1e56b124f5b9cf17ace7031d6d0/Trump-pulls-US-from-global-warming-accord,-to-allies'-dismay",
+      "status": 403,
+      "final_url": "https://apnews.com/0cafd1e56b124f5b9cf17ace7031d6d0/Trump-pulls-US-from-global-warming-accord,-to-allies'-dismay"
+    },
+    {
+      "url": "https://blog.codeship.com/running-node-js-linux-systemd/",
+      "status": 200,
+      "final_url": "https://www.cloudbees.com/blog/running-node-js-linux-systemd"
+    },
+    {
+      "url": "https://business.weather.com/industry-solutions/energy",
+      "status": 200,
+      "final_url": "https://www.weathercompany.com/"
+    },
+    {
+      "url": "https://commons.wikimedia.org/w/index.php?curid=10045722",
+      "status": 200,
+      "final_url": "https://commons.wikimedia.org/w/index.php?curid=10045722"
+    },
+    {
+      "url": "https://docs.saltstack.com/",
+      "status": 200,
+      "final_url": "https://docs.saltstack.com/"
+    },
+    {
+      "url": "https://docs.saltstack.com/en/latest/ref/states/top.html",
+      "status": 404,
+      "final_url": "https://docs.saltstack.com/en/latest/ref/states/top.html"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/1948_Donora_smog",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/1948_Donora_smog"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Airline_hub",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Airline_hub"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Paris_Agreement",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Paris_Agreement"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pittsburgh_International_Airport",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Pittsburgh_International_Airport"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/US_Airways",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/US_Airways"
+    },
+    {
+      "url": "https://ghost.org",
+      "status": 200,
+      "final_url": "https://ghost.org"
+    },
+    {
+      "url": "https://gist.github.com/drboyer/d1ab10f151753067d0d2c078dc5954cf",
+      "status": 200,
+      "final_url": "https://gist.github.com/drboyer/d1ab10f151753067d0d2c078dc5954cf"
+    },
+    {
+      "url": "https://github.com/drboyer",
+      "status": 200,
+      "final_url": "https://github.com/drboyer"
+    },
+    {
+      "url": "https://github.com/drboyer/droughtrelief",
+      "status": 200,
+      "final_url": "https://github.com/drboyer/droughtrelief"
+    },
+    {
+      "url": "https://github.com/drboyer/droughtrelief/blob/master/dates.js",
+      "status": 200,
+      "final_url": "https://github.com/drboyer/droughtrelief/blob/master/dates.js"
+    },
+    {
+      "url": "https://github.com/drboyer/droughtrelief/blob/master/static_web/map.js",
+      "status": 200,
+      "final_url": "https://github.com/drboyer/droughtrelief/blob/master/static_web/map.js"
+    },
+    {
+      "url": "https://github.com/substack/shp2json",
+      "status": 404,
+      "final_url": "https://github.com/substack/shp2json"
+    },
+    {
+      "url": "https://letsencrypt.org/",
+      "status": 200,
+      "final_url": "https://letsencrypt.org/"
+    },
+    {
+      "url": "https://mesonet.agron.iastate.edu/vtec/",
+      "status": 200,
+      "final_url": "https://mesonet.agron.iastate.edu/vtec/"
+    },
+    {
+      "url": "https://pivotalweather.com",
+      "status": 202,
+      "final_url": "https://pivotalweather.com"
+    },
+    {
+      "url": "https://pivotalweather.com/",
+      "status": 202,
+      "final_url": "https://pivotalweather.com/"
+    },
+    {
+      "url": "https://storify.com/wxdevin/remembering-tornado-researcher-tim-samaras",
+      "status": null,
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "url": "https://sunsetwx.com",
+      "status": 200,
+      "final_url": "https://sunsetwx.com"
+    },
+    {
+      "url": "https://sunsetwx.com/",
+      "status": 200,
+      "final_url": "https://sunsetwx.com/"
+    },
+    {
+      "url": "https://t.co/3znXGTcd8C",
+      "status": 200,
+      "final_url": "https://x.com/PressSec45/status/870367903337644032"
+    },
+    {
+      "url": "https://t.co/GIDW3xJABI",
+      "status": 530,
+      "final_url": "https://www.nh1.com/news/nh1-first-alert-weather-warning-winter-storm-warning-issued-for-all-of-nh-blizzard-watch-issued-for-rockingham-and-strafford-counties/"
+    },
+    {
+      "url": "https://t.co/TsBsw5g8Sx",
+      "status": 200,
+      "final_url": "https://x.com/RyanBretonWX/status/830530104912588801"
+    },
+    {
+      "url": "https://t.co/cibJyT7MAK",
+      "status": 200,
+      "final_url": "https://x.com/theinclinepgh/status/870368024926224384"
+    },
+    {
+      "url": "https://t.co/hCiGAhXZna",
+      "status": 200,
+      "final_url": "https://x.com/JustinMeyerKC/status/907672456927764480"
+    },
+    {
+      "url": "https://t.co/rRMiStLrGh",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?time_continue=25&v=wyXfUXBVg9Y"
+    },
+    {
+      "url": "https://twitter.com/HillaryClinton",
+      "status": 200,
+      "final_url": "https://x.com/HillaryClinton"
+    },
+    {
+      "url": "https://twitter.com/JustinMeyerKC/status/907672456927764480",
+      "status": 200,
+      "final_url": "https://x.com/JustinMeyerKC/status/907672456927764480"
+    },
+    {
+      "url": "https://twitter.com/PITairport",
+      "status": 200,
+      "final_url": "https://x.com/PITairport"
+    },
+    {
+      "url": "https://twitter.com/PITairport/status/907685161952858112",
+      "status": 200,
+      "final_url": "https://x.com/PITairport/status/907685161952858112"
+    },
+    {
+      "url": "https://twitter.com/RyanBretonWX/status/830530104912588801",
+      "status": 200,
+      "final_url": "https://x.com/RyanBretonWX/status/830530104912588801"
+    },
+    {
+      "url": "https://twitter.com/StuOstro/status/187243142590889986",
+      "status": 200,
+      "final_url": "https://x.com/StuOstro/status/187243142590889986"
+    },
+    {
+      "url": "https://twitter.com/billpeduto/status/870368663693660162",
+      "status": 200,
+      "final_url": "https://x.com/billpeduto/status/870368663693660162"
+    },
+    {
+      "url": "https://twitter.com/billpeduto/status/870369217031397377",
+      "status": 200,
+      "final_url": "https://x.com/billpeduto/status/870369217031397377"
+    },
+    {
+      "url": "https://twitter.com/billpeduto/status/870370288344674304",
+      "status": 200,
+      "final_url": "https://x.com/billpeduto/status/870370288344674304"
+    },
+    {
+      "url": "https://twitter.com/daveweigel/status/870384227753308164",
+      "status": 200,
+      "final_url": "https://x.com/daveweigel/status/870384227753308164"
+    },
+    {
+      "url": "https://twitter.com/hashtag/nh1news?src=hash",
+      "status": 200,
+      "final_url": "https://x.com/i/jf/onboarding/web?redirect_after_login=%2Fhashtag%2Fnh1news%3Fsrc%3Dhash&mode=login"
+    },
+    {
+      "url": "https://twitter.com/hashtag/tornado?src=hash",
+      "status": 200,
+      "final_url": "https://x.com/i/jf/onboarding/web?redirect_after_login=%2Fhashtag%2Ftornado%3Fsrc%3Dhash&mode=login"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Probability_of_a_white_Christmas_in_the_United_States.gif",
+      "status": 200,
+      "final_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Probability_of_a_white_Christmas_in_the_United_States.gif"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/KPIT_Land_Terminal_Night.jpg",
+      "status": 200,
+      "final_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/KPIT_Land_Terminal_Night.jpg"
+    },
+    {
+      "url": "https://weather.im/iembot/",
+      "status": 200,
+      "final_url": "https://weather.im/iembot/"
+    },
+    {
+      "url": "https://web.archive.org/web/*/https://storify.com/wxdevin/remembering-tornado-researcher-tim-samaras",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/*/https://storify.com/wxdevin/remembering-tornado-researcher-tim-samaras"
+    },
+    {
+      "url": "https://worldview.earthdata.nasa.gov/",
+      "status": 200,
+      "final_url": "https://worldview.earthdata.nasa.gov/"
+    },
+    {
+      "url": "https://www.aaroads.com/",
+      "status": 200,
+      "final_url": "https://www.aaroads.com/"
+    },
+    {
+      "url": "https://www.colorado.gov/airquality/live_image.aspx",
+      "status": 200,
+      "final_url": "https://www.colorado.gov/airquality/live_image.aspx"
+    },
+    {
+      "url": "https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04",
+      "status": 200,
+      "final_url": "https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04"
+    },
+    {
+      "url": "https://www.mountwashington.org/",
+      "status": 200,
+      "final_url": "https://mountwashington.org/"
+    },
+    {
+      "url": "https://www.npmjs.com/package/forever",
+      "status": 403,
+      "final_url": "https://www.npmjs.com/package/forever"
+    },
+    {
+      "url": "https://www.spaceweatherlive.com/en/help/",
+      "status": 200,
+      "final_url": "https://www.spaceweatherlive.com/en/help/.html"
+    },
+    {
+      "url": "https://www.weather.gov/source/crh/snowmap.html",
+      "status": 200,
+      "final_url": "https://www.weather.gov/source/crh/snowmap.html"
+    },
+    {
+      "url": "https://www.wunderground.com/hurricane/atlantic/2016/Hurricane-Matthew",
+      "status": 200,
+      "final_url": "https://www.wunderground.com/hurricane/atlantic/2016/Hurricane-Matthew"
+    },
+    {
+      "url": "https://www.youtube.com/embed/L7FCw2TwH-8",
+      "status": 200,
+      "final_url": "https://www.youtube.com/embed/L7FCw2TwH-8"
+    },
+    {
+      "url": "https://www.youtube.com/embed/p-zNf0ouNtA",
+      "status": 200,
+      "final_url": "https://www.youtube.com/embed/p-zNf0ouNtA"
+    },
+    {
+      "url": "https://www.youtube.com/embed/xIGMKJ0nSnA",
+      "status": 200,
+      "final_url": "https://www.youtube.com/embed/xIGMKJ0nSnA"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=L7FCw2TwH-8",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=L7FCw2TwH-8"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=p-zNf0ouNtA",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=p-zNf0ouNtA"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xIGMKJ0nSnA",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=xIGMKJ0nSnA"
+    }
+  ]
+}

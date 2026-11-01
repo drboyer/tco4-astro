@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { linkGroups } from '../data/links';
+---
+<BaseLayout title="Links">
+  <header class="container page-head">
+    <h1>Links & Resources</h1>
+    <p>A collection of weather resources, webcams, and other websites I've found useful.</p>
+  </header>
+  <section class="container links-grid" aria-label="Link collections">
+    {linkGroups.map(group => (
+      <div class="link-group">
+        <h2>{group.title}</h2>
+        <ul>
+          {group.links.map(link => (
+            <li>
+              <a href={link.url} target="_blank" rel="noopener noreferrer">
+                <strong>{link.label} <span aria-hidden="true">↗</span></strong>
+                <span class="sr-only"> (opens in a new tab)</span>
+              </a>
+              {link.city && <span class="link-city">{link.city}</span>}
+              {link.description && <span>{link.description}</span>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </section>
+</BaseLayout>

@@ -1,0 +1,43 @@
+---
+title: "Twisted News: The Latest Tornado Outbreak and Warning for the Future"
+description: "Note: This article has been minorly edited from its original form to remove some stale links and reformat some of the other media on the page. It seems as though tornadoes just can"
+pubDate: "2012-04-05"
+tags: [tornadoes, weather]
+archived: true
+---
+
+***Note:** This article has been minorly edited from its original form to remove some stale links and reformat some of the other media on the page.*
+
+It seems as though tornadoes just can't stay out of the news, as of late. Cable news stations were abuzz Tuesday night and Wednesday showing the latest dramatic pictures and videos from the latest tornado outbreak, this time centered near Dallas/Fort Worth, Texas. The especially notable video from yesterday's event was of tractor-trailers being thrown around into the air as if they were empty cardboard boxes!
+
+There were two other interesting things to note about yesterday’s event. First, for a decently long period of time, there were two concurrent supercells on the Dallas/Fort Worth radar, both of which contained sharp hook echoes, indicative of possible tornado development.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Twin supercells with sharp hook signatures on radar, one near Ft. Worth and one near Dallas <a href="http://t.co/H0e0l3WL">http://t.co/H0e0l3WL</a> <a href="https://twitter.com/hashtag/tornado?src=hash">#tornado</a></p>&mdash; Stu Ostro (@StuOstro) <a href="https://twitter.com/StuOstro/status/187243142590889986">April 3, 2012</a></blockquote>
+
+It appears that the majority of the damage came from the eastern storm, which had a longer period of time to exist on its own before becoming absorbed into the main frontal squall (see **Figure 1**). The second unique feature was that the damage seemed rather well-defined to the Interstate 30 corridor. This can be seen in great detail on the Storm Prediction Center's [Filtered Storm Reports Google Maps page](http://spc.noaa.gov/climo/gmf.php?rpt=120403_rpts_filtered) (**Figure 2** shows a zoomed and cropped version). It's fascinating to see the paths these storms take, which, while random, have certainly been known to follow interesting paths before.
+
+<figure>
+<img src="/blog/content/images/2016/04/dallas-radar-24hr-loop.gif" alt="Dallas radar loop showing storms over 24 hours on April 3, 2012." loading="lazy" />
+<figcaption>Figure 1 - A 24-hour radar loop of the Dallas, TX radar for April 3, 2012. (Source: Weather Underground)</figcaption>
+</figure>
+
+<figure>
+<img src="/blog/content/images/2016/04/i30-tornadoes.png" alt="NOAA storm reports map showing tornado reports along Interstate 30 near Dallas–Fort Worth." loading="lazy" />
+<figcaption>Figure 2 - NOAA SPC Filtered Storm Reports Google Maps page, showing the large number of tornado reports directly along the Interstate 30 corridor (each "<span style="color:red; font-weight: bold;">T</span>" on the map is a tornado report).</figcaption>
+</figure>
+
+**[An interesting article](http://www.huffingtonpost.com/paul-douglas/tornados-climate-change_b_1403642.html)** was posted on Wednesday by meteorologist Paul Douglas discussing the possibilities of an extremely tragic urban tornado in America. In fact, the article is titled "Tornado Warning: 'One of These Days a Single Tornado Will Claim Over 1,000 American Lives'", based on a quote by meteorologist and structural engineer Tim Marshall, which appears in the article. It's a fascinating read, and covers many of the bases of our dramatically shifting methodology about warning the general public about tornadoes. I have observed the warning process undergo several strong transformations, really over the past two years. In preparing to write this blog post, I was reviewing [an old blog post](http://www.weathersourcepa.com/blog/summary-blogs-indiana-state-fair-stage-collapse) about the stage collapse at the Indiana State Fair last August and came across a powerful quote by Brian Williams of NBC News. I've reposted this quote below because it is very relevant to this article, as well:
+
+> The truth is the National Weather Service is so good and forecasting has become so accurate, bad weather seldom arrives these days without warning.
+
+*Source: ["Protect the National Weather Service" Facebook Page](http://www.facebook.com/pages/Protect-the-National-Weather-Service/193060867385939)*
+
+As discussed in Douglas's article, we are now able to issue watches and warnings for nearly every severe weather situation accurately. A dramatic improvement to the warning situation occurred in 2007 when polygon-based warnings were implemented, allowing for more specific "pinpointing" of areas at direct risk for severe weather. Now that we have the warnings, the emerging issue is getting these warnings disseminated to the general public in the most effective manner. Douglas discusses several ways to stay informed with "Multiple Safety Nets" (as he called it), including NOAA Weather Radios, Local Media, and mobile notifications. The latter item is an area of interest to me, as sooner or later, everyone will have a web-enabled, GPS-capable mobile device. **Email alerts are *nice* for now, SMS is even better, but truly, a location-aware app that can push warnings to the user as they're issued is the key to future warning advances.** The best I could find, linked directly from the article was the **[iMapWeather Radio app](http://itunes.apple.com/us/app/imapweather-radio/id413511993?mt=8)** for iPhone, created by Weather Decision Technologies, Inc. The description for this app seems to address perfectly every thing I could want in this sort of application: it only warns you if your location lies directly within a watch/warning polygon, it updates your location automatically to ensure you're always receiving the most relevant alerts for your location, and you can even save locations of friends and family to ensure they are safe as well. Those features are well worth the $9.99 price, in my opinion. Now, if only there was something of the same caliber offered for Android (my smartphone platform of choice at the moment).
+
+While I'll leave it up to you to read through the rest of Douglas's article (it's worth the time, trust me), I do want to quote one other section with a fairly "recent development" with regard to protecting lives during tornadoes: **wearing helmets!**
+
+> **Tornado Helmets?** No, it's not getting sucked into the clouds like Dorothy in The Wizard of Oz. Nearly 90% of tornado deaths and injuries result from [blunt head trauma](http://books.google.com/books?id=hgLccSb8DIUC&pg=PA200&lpg=PA200&dq=tornado+blunt+head+trauma&source=bl&ots=lJ0t8HYh2e&sig=ONz9QSg4dPvw2UerwJ_ru4ONV7E&hl=en&sa=X&ei=fNB3T8_KLIaTgweav4n9Dg&ved=0CDwQ6AEwAQ#v=onepage&q=tornado%20blunt%20head%20trauma&f=false). That's why you want to get below grade, in a basement, if possible, to avoid a violent blender of hurtling debris. Here's a hint: **Find bike/football/hockey helmets for yourself and your kids.** I know it sounds a little crazy, but [anecdotal evidence](http://www.wsbradio.com/news/news/doc-helmets-baby-carries-saved-kids-storm/nJJPd/) suggests padded helmets can greatly lower the risk of blunt head trauma. It may look a little goofy, but then again, looking goofy may just save your life.
+
+If you ask me, this solution sounds like it would be common sense, but it really took until about earlier this year for me to see it being used popularly by mainstream media. Hopefully this trend continues.
+
+Finally, while we're on to topic of tornado warnings, a new pilot program at five weather service offices in Kansas and Missouri will be implementing a **[tiered tornado warning system](http://www.usatoday.com/weather/storms/tornadoes/story/2012-04-02/new-tornado-warnings/53946346/1)** with much strong wordings in significant warnings, including such phrases as **"mass devastation," "unsurvivable" and "catastrophic".** This seems to be a logical extension of the "Tornado Emergency" text added to particularly noteworthy tornado warnings today, which is done on a more unofficial standard. This system would hopefully create universal guidelines for various "levels" of tornado warning severity. I'm all for it. Many have credited the National Weather Service's warnings for preventing any deaths from occurring in yesterday's outbreak in Texas. We're at a good place with regards to tornado warnings in the United States. However, we cannot be complacent here; we must continue to improve our systems continuously. Mother Nature loves throwing curveballs.

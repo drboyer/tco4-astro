@@ -1,0 +1,34 @@
+---
+import { formatPostDate } from "../utils/dates";
+import type { CollectionEntry } from "astro:content";
+interface Props {
+    post: CollectionEntry<"blog">;
+}
+const { post } = Astro.props;
+const accent = post.data.tags.includes("food")
+    ? "food"
+    : post.data.tags.includes("travel")
+      ? "travel"
+      : "weather";
+---
+
+<article class="card">
+    {
+        post.data.image ? (
+            <img class="card-image" src={post.data.image} alt="" loading="lazy" decoding="async" />
+        ) : (
+            <div class:list={["card-visual", accent]} aria-hidden="true">
+                {accent === "food" ? "🍋" : accent === "travel" ? "⛰" : "⛈️"}
+            </div>
+        )
+    }
+    <div class="card-body">
+        <time class="small" datetime={post.data.pubDate.toISOString()}
+            >{formatPostDate(post.data.pubDate, "short")}</time
+        ><h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3><p>
+            {post.data.description}
+        </p><div class="tags">
+            {post.data.tags.map((tag) => <span class="tag">{tag}</span>)}
+        </div>
+    </div>
+</article>

@@ -1,0 +1,29 @@
+{
+  "name": "the-cloud-online-astro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0",
+    "build": "astro build",
+    "preview": "astro preview --host 0.0.0.0",
+    "check": "astro check",
+    "import:ghost": "python3 scripts/import_ghost.py",
+    "audit:archive": "python3 scripts/audit_archive.py",
+    "test": "node --test --test-isolation=none tests/*.test.mjs && python3 -m unittest discover -s tests -p \"test_*.py\"",
+    "verify:build": "python3 scripts/verify_build.py && node scripts/verify-images.mjs"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.0",
+    "astro": "^7.4.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.9.3",
+    "yaml": "^2.9.1"
+  },
+  "engines": {
+    "node": ">=24 <25",
+    "npm": ">=11"
+  }
+}

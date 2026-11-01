@@ -1,0 +1,490 @@
+{
+  "checked_at": "2026-10-31T16:52:46.467756+00:00",
+  "scope": "Links page only; GET requests, redirects followed, 12-second request limit, failures retried once",
+  "results": [
+    {
+      "category": "Forecasting Websites",
+      "title": "Penn State eWall",
+      "original": {
+        "url": "http://mp1.met.psu.edu/~fxg1/ewall.html",
+        "status": 0,
+        "final_url": "http://mp1.met.psu.edu/~fxg1/ewall.html",
+        "content_type": "",
+        "exit_code": 28,
+        "error": "curl: (28) Failed to connect to mp1.met.psu.edu port 80 after 2714 ms: Connection timed out"
+      },
+      "https": {
+        "url": "https://mp1.met.psu.edu/~fxg1/ewall.html",
+        "status": 0,
+        "final_url": "https://mp1.met.psu.edu/~fxg1/ewall.html",
+        "content_type": "",
+        "exit_code": 28,
+        "error": "curl: (28) Failed to connect to mp1.met.psu.edu port 443 after 2913 ms: Connection timed out"
+      },
+      "retry": {
+        "url": "http://mp1.met.psu.edu/~fxg1/ewall.html",
+        "status": 0,
+        "final_url": "http://mp1.met.psu.edu/~fxg1/ewall.html",
+        "content_type": "",
+        "exit_code": 28,
+        "error": "curl: (28) Failed to connect to mp1.met.psu.edu port 80 after 2702 ms: Connection timed out"
+      }
+    },
+    {
+      "category": "Forecasting Websites",
+      "title": "College of DuPage SatRad page",
+      "original": {
+        "url": "http://weather.cod.edu/satrad/",
+        "status": 200,
+        "final_url": "https://weather.cod.edu/satrad/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://weather.cod.edu/satrad/",
+        "status": 200,
+        "final_url": "https://weather.cod.edu/satrad/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Forecasting Websites",
+      "title": "NWS Aviation Weather Center",
+      "original": {
+        "url": "http://aviationweather.gov",
+        "status": 200,
+        "final_url": "https://aviationweather.gov/",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://aviationweather.gov",
+        "status": 200,
+        "final_url": "https://aviationweather.gov/",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Forecasting Websites",
+      "title": "One-Stop MOS",
+      "original": {
+        "url": "http://www.nws.noaa.gov/mdl/synop/products/bullform.all.php",
+        "status": 403,
+        "final_url": "http://www.nws.noaa.gov/mdl/synop/products/bullform.all.php",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://www.nws.noaa.gov/mdl/synop/products/bullform.all.php",
+        "status": 403,
+        "final_url": "https://www.nws.noaa.gov/mdl/synop/products/bullform.all.php",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      },
+      "retry": {
+        "url": "http://www.nws.noaa.gov/mdl/synop/products/bullform.all.php",
+        "status": 403,
+        "final_url": "http://www.nws.noaa.gov/mdl/synop/products/bullform.all.php",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Forecasting Websites",
+      "title": "PivotalWeather Model Data",
+      "original": {
+        "url": "https://pivotalweather.com",
+        "status": 405,
+        "final_url": "https://pivotalweather.com/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      },
+      "retry": {
+        "url": "https://pivotalweather.com",
+        "status": 405,
+        "final_url": "https://pivotalweather.com/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Forecasting Websites",
+      "title": "Tropical Tidbits Model Data",
+      "original": {
+        "url": "http://www.tropicaltidbits.com/analysis/models/",
+        "status": 200,
+        "final_url": "https://www.tropicaltidbits.com/analysis/models/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://www.tropicaltidbits.com/analysis/models/",
+        "status": 200,
+        "final_url": "https://www.tropicaltidbits.com/analysis/models/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Forecasting Websites",
+      "title": "TwisterData",
+      "original": {
+        "url": "http://www.twisterdata.com/",
+        "status": 200,
+        "final_url": "https://www.twisterdata.com/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://www.twisterdata.com/",
+        "status": 200,
+        "final_url": "https://www.twisterdata.com/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Space Weather Links",
+      "title": "NOAA Space Weather Prediction Center",
+      "original": {
+        "url": "http://www.swpc.noaa.gov/",
+        "status": 301,
+        "final_url": "https://www.www.swpc.noaa.gov/",
+        "content_type": "text/html; charset=iso-8859-1",
+        "exit_code": 6,
+        "error": "curl: (6) Could not resolve host: www.www.swpc.noaa.gov"
+      },
+      "https": {
+        "url": "https://www.swpc.noaa.gov/",
+        "status": 200,
+        "final_url": "https://www.spaceweather.gov/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      },
+      "retry": {
+        "url": "http://www.swpc.noaa.gov/",
+        "status": 301,
+        "final_url": "https://www.www.swpc.noaa.gov/",
+        "content_type": "text/html; charset=iso-8859-1",
+        "exit_code": 6,
+        "error": "curl: (6) Could not resolve host: www.www.swpc.noaa.gov"
+      }
+    },
+    {
+      "category": "Space Weather Links",
+      "title": "SpaceWeatherLive Help Page",
+      "original": {
+        "url": "https://www.spaceweatherlive.com/en/help/",
+        "status": 200,
+        "final_url": "https://www.spaceweatherlive.com/en/help/.html",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Webcam Links",
+      "title": "Breathe Cams [Pittsburgh, PA]",
+      "original": {
+        "url": "http://breatheproject.org/learn/breathe-cam/",
+        "status": 403,
+        "final_url": "https://breatheproject.org/learn/breathe-cam/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://breatheproject.org/learn/breathe-cam/",
+        "status": 403,
+        "final_url": "https://breatheproject.org/learn/breathe-cam/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      },
+      "retry": {
+        "url": "http://breatheproject.org/learn/breathe-cam/",
+        "status": 403,
+        "final_url": "https://breatheproject.org/learn/breathe-cam/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Webcam Links",
+      "title": "Prudential Center Webcams [Boston, MA]",
+      "original": {
+        "url": "http://bluehill.org/observatory/webcams/prudential-webcams/",
+        "status": 200,
+        "final_url": "http://bluehill.org/climate-weather/webcams/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://bluehill.org/observatory/webcams/prudential-webcams/",
+        "status": 200,
+        "final_url": "https://bluehill.org/climate-weather/webcams/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Webcam Links",
+      "title": "More Boston webcams [Boston, MA]",
+      "original": {
+        "url": "http://thebostonwebcam.com/",
+        "status": 406,
+        "final_url": "https://thebostonwebcam.com/",
+        "content_type": "text/html; charset=iso-8859-1",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://thebostonwebcam.com/",
+        "status": 406,
+        "final_url": "https://thebostonwebcam.com/",
+        "content_type": "text/html; charset=iso-8859-1",
+        "exit_code": 0,
+        "error": null
+      },
+      "retry": {
+        "url": "http://thebostonwebcam.com/",
+        "status": 406,
+        "final_url": "https://thebostonwebcam.com/",
+        "content_type": "text/html; charset=iso-8859-1",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Webcam Links",
+      "title": "Alexandria Marina [Alexandria, VA]",
+      "original": {
+        "url": "http://apps.alexandriava.gov/MarinaCam/",
+        "status": 200,
+        "final_url": "http://apps.alexandriava.gov/MarinaCam/",
+        "content_type": "text/html; charset=utf-8",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://apps.alexandriava.gov/MarinaCam/",
+        "status": 200,
+        "final_url": "https://apps.alexandriava.gov/MarinaCam/",
+        "content_type": "text/html; charset=utf-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Webcam Links",
+      "title": "Denver Air Quality [Denver, CO]",
+      "original": {
+        "url": "https://www.colorado.gov/airquality/live_image.aspx",
+        "status": 200,
+        "final_url": "https://www.colorado.gov/airquality/live_image.aspx",
+        "content_type": "text/html; charset=utf-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Other Weather Links",
+      "title": "Bryant's Weather Wall",
+      "original": {
+        "url": "http://stormsellweather.com/weatherwall/themapwall.html",
+        "status": 200,
+        "final_url": "http://stormsellweather.com/weatherwall/",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://stormsellweather.com/weatherwall/themapwall.html",
+        "status": 200,
+        "final_url": "http://stormsellweather.com/weatherwall/",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Other Weather Links",
+      "title": "Penn State Campus Weather Service",
+      "original": {
+        "url": "http://www.campusweatherservice.com",
+        "status": 200,
+        "final_url": "https://cws.met.psu.edu/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://www.campusweatherservice.com",
+        "status": 200,
+        "final_url": "https://cws.met.psu.edu/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Other Weather Links",
+      "title": "SunsetWx",
+      "original": {
+        "url": "https://sunsetwx.com",
+        "status": 200,
+        "final_url": "https://sunsetwx.com/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Other Weather Links",
+      "title": "IEMBot Web Monitor",
+      "original": {
+        "url": "https://weather.im/iembot/",
+        "status": 200,
+        "final_url": "https://weather.im/iembot/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Other Weather Links",
+      "title": "Mount Washington Observatory",
+      "original": {
+        "url": "https://www.mountwashington.org/",
+        "status": 200,
+        "final_url": "https://mountwashington.org/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Other Weather Links",
+      "title": "NWS Local Snow Reports Map",
+      "original": {
+        "url": "https://www.weather.gov/source/crh/snowmap.html",
+        "status": 200,
+        "final_url": "https://www.weather.gov/source/crh/snowmap.html",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Other Weather Links",
+      "title": "MODIS Imagery - NASA Worldview",
+      "original": {
+        "url": "https://worldview.earthdata.nasa.gov/",
+        "status": 200,
+        "final_url": "https://worldview.earthdata.nasa.gov/",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Roadgeek websites",
+      "title": "AARoads",
+      "original": {
+        "url": "https://www.aaroads.com/",
+        "status": 403,
+        "final_url": "https://www.aaroads.com/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      },
+      "retry": {
+        "url": "https://www.aaroads.com/",
+        "status": 403,
+        "final_url": "https://www.aaroads.com/",
+        "content_type": "text/html; charset=UTF-8",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Roadgeek websites",
+      "title": "Pennsylvania Highways",
+      "original": {
+        "url": "http://www.pahighways.com/",
+        "status": 200,
+        "final_url": "https://www.pahighways.com/",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://www.pahighways.com/",
+        "status": 200,
+        "final_url": "https://www.pahighways.com/",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Roadgeek websites",
+      "title": "3-digit interstates @ kurumi.com",
+      "original": {
+        "url": "http://www.kurumi.com/roads/3di/index.html",
+        "status": 200,
+        "final_url": "http://www.kurumi.com/roads/3di/index.html",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://www.kurumi.com/roads/3di/index.html",
+        "status": 200,
+        "final_url": "https://www.kurumi.com/roads/3di/index.html",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      }
+    },
+    {
+      "category": "Roadgeek websites",
+      "title": "Roads to the Future",
+      "original": {
+        "url": "http://roadstothefuture.com/main.html",
+        "status": 200,
+        "final_url": "https://roadstothefuture.com/main.html",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      },
+      "https": {
+        "url": "https://roadstothefuture.com/main.html",
+        "status": 200,
+        "final_url": "https://roadstothefuture.com/main.html",
+        "content_type": "text/html",
+        "exit_code": 0,
+        "error": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+[
+  {
+    "slug": "brief-thoughts-on-pittsburgh-international-airport-terminal-modernization",
+    "title": "Some Thoughts on Pittsburgh International Airport Terminal Modernization",
+    "url": "/blog/brief-thoughts-on-pittsburgh-international-airport-terminal-modernization/",
+    "date": "2017-09-13",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2017/09/PIT_nightshot_web3.jpg",
+      "/blog/content/images/2017/09/new-pit-airport.jpg",
+      "/blog/content/images/2017/09/trex-terrible-towel-pittsburgh-airport.jpg"
+    ],
+    "missing_images": [],
+    "external_images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b7/KPIT_Land_Terminal_Night.jpg"
+    ],
+    "repairs": [
+      "Consolidate per-tweet scripts into one HTTPS widget script per article; preserve tweet blockquotes and source links as fallbacks"
+    ],
+    "review": [
+      "Review Twitter/X widget rendering and blockquote/source-link fallbacks with scripts blocked",
+      "External image availability remains a third-party dependency"
+    ],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "leaving-the-paris-climate-agreement-turned-out-to-be-a-good-pr-move-for-pittsburgh",
+    "title": "Leaving the Paris Climate Agreement Turned Out To Be a Good PR Move for Pittsburgh",
+    "url": "/blog/leaving-the-paris-climate-agreement-turned-out-to-be-a-good-pr-move-for-pittsburgh/",
+    "date": "2017-06-02",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2017/06/1200px-Pittsburgh_Skyline-1.jpg"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [
+      "Consolidate per-tweet scripts into one HTTPS widget script per article; preserve tweet blockquotes and source links as fallbacks"
+    ],
+    "review": [
+      "Review Twitter/X widget rendering and blockquote/source-link fallbacks with scripts blocked"
+    ],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "google-public-alerts-an-effective-weather-communication-tool",
+    "title": "Google Public Alerts: An Effective Weather Communication Tool",
+    "url": "/blog/google-public-alerts-an-effective-weather-communication-tool/",
+    "date": "2017-02-11",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2017/02/Screenshot_20170211-172251-1.png",
+      "/blog/content/images/2017/02/alertpage-1.png",
+      "/blog/content/images/2017/02/alertpage.png",
+      "/blog/content/images/2017/02/ri-alert-1.PNG"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [
+      "Consolidate per-tweet scripts into one HTTPS widget script per article; preserve tweet blockquotes and source links as fallbacks"
+    ],
+    "review": [
+      "Review Twitter/X widget rendering and blockquote/source-link fallbacks with scripts blocked"
+    ],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "weather-model-deep-dive-surface-pressure-artifacting",
+    "title": "Weather Model Deep-Dive: Surface Pressure Artifacting",
+    "url": "/blog/weather-model-deep-dive-surface-pressure-artifacting/",
+    "date": "2016-10-01",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/10/bothpres_0p25-1.png",
+      "/blog/content/images/2016/10/bothpres_0p25.png",
+      "/blog/content/images/2016/10/bothpres_2p50.png",
+      "/blog/content/images/2016/10/carib_terrain.png",
+      "/blog/content/images/2016/10/center-compares.png",
+      "/blog/content/images/2016/10/sfcpres_0p25.png",
+      "/blog/content/images/2016/10/sfcpres_2p50.png"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "samplepost",
+    "title": "Super Simple Node.js Continuous Deployment using SaltStack and systemd",
+    "url": "/blog/samplepost/",
+    "date": "2016-09-12",
+    "date_matches_export": true,
+    "local_images": [],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [
+      "Historical slug belongs to a substantive article; retained pending editorial decision"
+    ],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "building-an-interactive-drought-relief-map",
+    "title": "Building an Interactive Drought Relief Map",
+    "url": "/blog/building-an-interactive-drought-relief-map/",
+    "date": "2016-09-11",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/09/ma-drought.png",
+      "/blog/content/images/2016/09/query.png",
+      "/images/drought-relief.png"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [
+      "Preserve public gist code locally at its original revision without executable embed"
+    ],
+    "review": [],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "welcome-to-the-new-thecloudonline",
+    "title": "Welcome to the new thecloudonline.net!",
+    "url": "/blog/welcome-to-the-new-thecloudonline/",
+    "date": "2016-06-11",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/06/old-fcst.PNG",
+      "/images/tco3-homepage.png"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "may-31-pennsylvanias-worst-historic-weather-day",
+    "title": "May 31: Pennsylvania's Worst Historic Weather Day",
+    "url": "/blog/may-31-pennsylvanias-worst-historic-weather-day/",
+    "date": "2014-05-31",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/04/May-31-1985-United-States-Canadian-tornado-outbreak.jpg",
+      "/blog/content/images/2016/04/johnstownflood.jpg",
+      "/blog/content/images/2016/04/kennywood-radar.png",
+      "/blog/content/images/2016/04/mvc-001s.jpg",
+      "/blog/content/images/2016/06/May-31-1985-United-States-Canadian-tornado-outbreak.jpg"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "remembering-tornado-researchers-tim-samaras-paul-samaras-and-carl-young",
+    "title": "Remembering Tornado Researchers Tim Samaras, Paul Samaras, and Carl Young",
+    "url": "/blog/remembering-tornado-researchers-tim-samaras-paul-samaras-and-carl-young/",
+    "date": "2013-06-02",
+    "date_matches_export": true,
+    "local_images": [],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [
+      "Replace obsolete Storify script and iframe with a clearly identified recovery fallback; original preserved in export"
+    ],
+    "review": [
+      "Storify memorial contents unrecovered; approve fallback or supply archived contents"
+    ],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "twisted-news-the-latest-tornado-outbreak-and-warning-for-the-future",
+    "title": "Twisted News: The Latest Tornado Outbreak and Warning for the Future",
+    "url": "/blog/twisted-news-the-latest-tornado-outbreak-and-warning-for-the-future/",
+    "date": "2012-04-05",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/04/dallas-radar-24hr-loop.gif",
+      "/blog/content/images/2016/04/i30-tornadoes.png"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [
+      "Consolidate per-tweet scripts into one HTTPS widget script per article; preserve tweet blockquotes and source links as fallbacks",
+      "Replace the malformed layout table with accessible image figures so images render inside raw HTML; preserve original captions"
+    ],
+    "review": [
+      "Review Twitter/X widget rendering and blockquote/source-link fallbacks with scripts blocked"
+    ],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "basic-skew-t-analysis-snow-or-no-snow",
+    "title": "Basic Skew-T Analysis: Snow Or No Snow?",
+    "url": "/blog/basic-skew-t-analysis-snow-or-no-snow/",
+    "date": "2012-02-29",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/05/00z-nam-skewt.png",
+      "/blog/content/images/2016/05/05z-ruc-skewt.png",
+      "/blog/content/images/2016/05/18z-gfs-skewt.png",
+      "/blog/content/images/2016/06/00z-nam-skewt.png"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [
+      "Review historical table layout at mobile widths"
+    ],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "a-summary-of-blogs-on-the-indiana-state-fair-stage-collapse",
+    "title": "A Summary of Blogs on the Indiana State Fair Stage Collapse",
+    "url": "/blog/a-summary-of-blogs-on-the-indiana-state-fair-stage-collapse/",
+    "date": "2011-08-16",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/05/indy_fair.gif"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "damaging-tornado-strikes-westmoreland-county",
+    "title": "Damaging Tornado Strikes Westmoreland County, PA",
+    "url": "/blog/damaging-tornado-strikes-westmoreland-county/",
+    "date": "2011-03-24",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/05/1750-radar-labels.png",
+      "/blog/content/images/2016/05/andrew-hail.jpg",
+      "/blog/content/images/2016/05/kdka-fortallenhomes.jpg",
+      "/blog/content/images/2016/05/rt30-hempfield.jpg",
+      "/blog/content/images/2016/05/wtae-arona.jpg",
+      "/blog/content/images/2016/05/wtae-ups.jpg",
+      "/blog/content/images/2016/06/rt30-hempfield.jpg"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [
+      "Add accessible titles, lazy loading, and independent YouTube links to retained videos"
+    ],
+    "review": [
+      "Review retained YouTube playback; direct watch links provided"
+    ],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "anatomy-of-a-surprise-thunderstorm",
+    "title": "Anatomy of a \"Surprise\" Thunderstorm",
+    "url": "/blog/anatomy-of-a-surprise-thunderstorm/",
+    "date": "2011-02-03",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/05/020211-us-surface.gif",
+      "/blog/content/images/2016/05/latrobe-020211-radar.gif",
+      "/blog/content/images/2016/05/metars.png",
+      "/blog/content/images/2016/06/latrobe-020211-radar.gif"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "will-pittsburgh-see-a-white-christmas-this-year",
+    "title": "Will Pittsburgh See a White Christmas this year?",
+    "url": "/blog/will-pittsburgh-see-a-white-christmas-this-year/",
+    "date": "2010-12-24",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/05/122410-snow-depth.png"
+    ],
+    "missing_images": [],
+    "external_images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/55/Probability_of_a_white_Christmas_in_the_United_States.gif"
+    ],
+    "repairs": [],
+    "review": [
+      "External image availability remains a third-party dependency"
+    ],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "untitled",
+    "title": "Musicians and Today's Internet",
+    "url": "/blog/untitled/",
+    "date": "2010-12-18",
+    "date_matches_export": true,
+    "local_images": [],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [
+      "Historical slug belongs to a substantive article; retained pending editorial decision"
+    ],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "on-lake-effect-snow-longevity",
+    "title": "On Lake Effect Snow Longevity",
+    "url": "/blog/on-lake-effect-snow-longevity/",
+    "date": "2010-12-11",
+    "date_matches_export": true,
+    "local_images": [],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "snow-and-lack-therof",
+    "title": "Snow or Lack Thereof?",
+    "url": "/blog/snow-and-lack-therof/",
+    "date": "2010-12-06",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/05/snowmap-120610-1200.png"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "weather-update-december-1-2010",
+    "title": "Weather Update: December 1, 2010",
+    "url": "/blog/weather-update-december-1-2010/",
+    "date": "2010-12-01",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/05/fastdroptemp.gif",
+      "/blog/content/images/2016/05/psu_rain.jpg"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "does-it-really-rain-every-thursday",
+    "title": "Does it really rain every Thursday?",
+    "url": "/blog/does-it-really-rain-every-thursday/",
+    "date": "2010-11-04",
+    "date_matches_export": true,
+    "local_images": [],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [
+      "Review historical table layout at mobile widths"
+    ],
+    "editorial_approval": "pending"
+  },
+  {
+    "slug": "strongest-windstorm-in-decades-bears-down-on-upper-midwest",
+    "title": "Strongest Windstorm in Decades Bears Down on Upper Midwest",
+    "url": "/blog/strongest-windstorm-in-decades-bears-down-on-upper-midwest/",
+    "date": "2010-10-26",
+    "date_matches_export": true,
+    "local_images": [
+      "/blog/content/images/2016/05/spc-homepageimage.gif",
+      "/blog/content/images/2016/05/surfacemap.png",
+      "/blog/content/images/2016/06/surfacemap.png"
+    ],
+    "missing_images": [],
+    "external_images": [],
+    "repairs": [],
+    "review": [],
+    "editorial_approval": "pending"
+  }
+]

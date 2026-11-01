@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PostCard from "../components/PostCard.astro";
+import { getCollection } from "astro:content";
+const posts = (await getCollection("blog", ({ data }) => !data.draft))
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+    .slice(0, 3);
+---
+
+<BaseLayout>
+    <section class="hero">
+        <div class="container">
+            <div class="eyebrow">Welcome to</div><h1>thecloudonline.net</h1><p>
+                A personal site about technology, weather and anything else that catches my attention.
+            </p><div class="accent-line"></div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h2>About Me</h2><div class="about-grid">
+                <div class="about-text">
+                    <p>I'm Devin Boyer. I've been passionate about both weather and technology for nearly my entire life. I grew up near Pittsburgh, Pennsylvania, where I experienced exciting weather in all four seasons which helped to foster my love of the weather and especially thunderstorms. I attended Penn State University and graduated in May 2014 with a degree in meteorology.</p>
+                    <p>In addition to the weather, I have been interested in technology since my family purchased our first computer in 1997. I published my first website when I was 13 and have maintained several sites, for personal or other purposes, ever since. In my career, I've developed meteorological software at The Weather Company, before building the Data Platform at Mapbox. I'm now back in the meteorological software space at <a href="https://www.atmosphericg2.com/">Atmospheric G2</a>.</p>
+                    <p>Other interests of mine include photography, music, and exploring the great outdoors! I live in Washington, DC.</p>
+                </div><img class="portrait" src="/images/devin-boyer-portrait.webp" alt="Devin Boyer outdoors" width="520" height="650" loading="lazy" decoding="async" />
+            </div>
+        </div>
+    </section>
+    <section class="section muted-section">
+        <div class="container blog-overview">
+            <div>
+                <h2>Latest from the Blog</h2><p class="section-intro">
+                    An archive of past posts and occasional new ones about
+                    technology, travel, and other interests.
+                </p><a class="button" href="/blog/">View All Posts →</a>
+            </div><div class="cards">
+                {posts.map((post) => <PostCard post={post} />)}
+            </div>
+        </div>
+    </section>
+</BaseLayout>

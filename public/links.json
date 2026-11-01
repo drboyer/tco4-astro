@@ -1,0 +1,157 @@
+{
+  "categories": [
+    {
+      "title": "Forecasting Websites",
+      "links": [
+        {
+          "title": "Penn State eWall",
+          "url": "https://www.meteo.psu.edu/ewall/ewall.html",
+          "description": "Comprehensive collection of weather data"
+        },
+        {
+          "title": "College of DuPage SatRad page",
+          "url": "http://weather.cod.edu/satrad/",
+          "description": "Great resource for US satellite imagery"
+        },
+        {
+          "title": "NWS Aviation Weather Center",
+          "url": "https://aviationweather.gov/",
+          "description": "Useful site for METAR data, and lots more"
+        },
+        {
+          "title": "WeatherFront",
+          "url": "https://www.weatherfront.com/",
+          "description": "Excellent mobile app and web interface for observed and forecast weather data"
+        },
+        {
+          "title": "PivotalWeather Model Data",
+          "url": "pivotalweather.com",
+          "description": "Model data graphics with a nice interface and integrated soundings"
+        },
+        {
+          "title": "Tropical Tidbits Model Data",
+          "url": "http://www.tropicaltidbits.com/analysis/models/"
+        },
+        {
+          "title": "TwisterData",
+          "url": "http://www.twisterdata.com/",
+          "description": "Still one of the best sounding resources"
+        }
+      ]
+    },
+    {
+      "title": "Webcam Links",
+      "links": [
+        {
+          "title": "Breathe Cams [Pittsburgh, PA]",
+          "city": "Pittsburgh, PA, USA",
+          "url": "https://breatheproject.org/breathe-cam/",
+          "description": "High quality panoramic webcams from the Pittsburgh area. Set up by an air quality monitoring project"
+        },
+        {
+          "title": "Blue Hill Observatory, MA Webcams",
+          "city": "Boston, MA, USA",
+          "url": "https://bluehill.org/climate-weather/webcams/",
+          "description": "Webcams at Blue Hill Observatory, located about 15 miles south of Boston"
+        },
+        {
+          "title": "More Boston webcams [Boston, MA]",
+          "city": "Boston, MA, USA",
+          "url": "http://thebostonwebcam.com/",
+          "description": "More webcams of the Charles River and Boston Harbor"
+        },
+        {
+          "title": "Alexandria Marina [Alexandria, VA]",
+          "city": "Alexandria, VA, USA",
+          "url": "http://apps.alexandriava.gov/MarinaCam/",
+          "description": "Several webcams overlooking the Marina in Old Town Alexandria"
+        },
+        {
+          "title": "Denver Air Quality [Denver, CO]",
+          "city": "Denver, CO, USA",
+          "url": "https://www.colorado.gov/airquality/live_image.aspx",
+          "description": "Hourly webcam of downtown Denver, provided for Air Quality monitoring"
+        }
+      ]
+    },
+    {
+      "title": "Other Weather Links",
+      "links": [
+        {
+          "title": "Bryant's Weather Wall",
+          "url": "http://stormsellweather.com/weatherwall/themapwall.html",
+          "description": "A great collection of weather data and especially webcams with a PA focus"
+        },
+        {
+          "title": "Penn State Campus Weather Service",
+          "url": "http://www.campusweatherservice.com",
+          "description": "Quality statewide forecasts for Pennsylvania from the largest student-run forecasting club (prod alum!)"
+        },
+        {
+          "title": "SunsetWx",
+          "url": "https://sunsetwx.com",
+          "description": "Sunset weather forecasts (the site was created by 3 of my friends from PSU)"
+        },
+        {
+          "title": "IEMBot Web Monitor",
+          "url": "https://weather.im/iembot/",
+          "description": "Easy to use radiator of various NWS office messages, like warnings and stomr reports"
+        },
+        {
+          "title": "Mount Washington Observatory",
+          "url": "https://www.mountwashington.org/",
+          "description": "Self-proclaimed \"Home of the World's Worst Weather\". Longtime weather observatory at the top of New England's tallest peak"
+        },
+        {
+          "title": "NWS Local Snow Reports Map",
+          "url": "https://www.weather.gov/source/crh/snowmap.html",
+          "description": "Snow amounts from the past 24, 48 or 72 hours derived from NWS Local Storm Reports"
+        },
+        {
+          "title": "MODIS Imagery - NASA Worldview",
+          "url": "https://worldview.earthdata.nasa.gov/",
+          "description": "High resolution imagery updated daily from the MODIS sensors on Terra/Aqua satellites"
+        }
+      ]
+    },
+    {
+      "title": "Space Weather Links",
+      "links": [
+        {
+          "title": "NOAA Space Weather Prediction Center",
+          "url": "https://www.spaceweather.gov/",
+          "description": "All sorts of data and forecasts involving Space Weather"
+        },
+        {
+          "title": "SpaceWeatherLive Help Page",
+          "url": "https://www.spaceweatherlive.com/en/help/",
+          "description": "Great overview on the basics of Space Weather analysis"
+        }
+      ]
+    },
+    {
+      "title": "Roadgeek websites",
+      "links": [
+        {
+          "title": "AARoads",
+          "url": "https://www.aaroads.com/",
+          "description": "Lots of content across the United States."
+        },
+        {
+          "title": "Pennsylvania Highways",
+          "url": "http://www.pahighways.com/",
+          "description": "Comprehensive coverage of state highways across Pennsylvania, along with some long-form features"
+        },
+        {
+          "title": "3-digit interstates @ kurumi.com",
+          "url": "http://www.kurumi.com/roads/3di/index.html"
+        },
+        {
+          "title": "Roads to the Future",
+          "url": "http://roadstothefuture.com/main.html",
+          "description": "Coverage of the mid-Atlantic"
+        }
+      ]
+    }
+  ]
+}

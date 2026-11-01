@@ -1,0 +1,111 @@
+---
+import { formatPostDate } from "../../utils/dates";
+import type { InferGetStaticPropsType } from "astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection, render } from "astro:content";
+export async function getStaticPaths() {
+  const posts = (await getCollection("blog", ({ data }) => !data.draft)).sort(
+    (a, b) =>
+      a.data.pubDate.valueOf() - b.data.pubDate.valueOf() ||
+      a.id.localeCompare(b.id, "en"),
+  );
+  return posts.map((post, index) => ({
+    params: { id: post.id },
+    props: {
+      post,
+      allPosts: posts,
+      previousPost: posts[index - 1],
+      nextPost: posts[index + 1],
+    },
+  }));
+}
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+const { post, allPosts, previousPost, nextPost } = Astro.props;
+const { Content } = await render(post);
+const hasTweetEmbeds = post.body?.includes("twitter-tweet") ?? false;
+const related = allPosts
+  .filter((p) => p.id !== post.id)
+  .map((p) => ({
+    ...p,
+    score: p.data.tags.filter((t) => post.data.tags.includes(t)).length,
+  }))
+  .filter((p) => p.score > 0)
+  .sort(
+    (a, b) =>
+      b.score - a.score || b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+  )
+  .slice(0, 3);
+---
+
+<BaseLayout title={post.data.title} description={post.data.description}
+  ><article class="article">
+    <a href="/blog/" class="back-link">← Back to Blog</a><h1>
+      {post.data.title}
+    </h1><div class="article-meta">
+      <time datetime={post.data.pubDate.toISOString()}
+        >{formatPostDate(post.data.pubDate)}</time
+      > &nbsp; · &nbsp; {post.data.tags.join(" · ")}
+    </div>{
+      post.data.image ? (
+        <img class="article-header-image" src={post.data.image} alt="" />
+      ) : (
+        <div class="article-hero" aria-hidden="true">
+          ✎
+        </div>
+      )
+    }
+    {post.data.image && <hr class="article-header-divider" />}
+    <div class="prose"><Content /></div>{
+      related.length > 0 && (
+        <section class="related">
+          <h2>Related Posts</h2>
+          {related.map((p) => (
+            <div class="related-item">
+              <a href={`/blog/${p.id}/`}>{p.data.title} →</a>
+              <div class="small">
+                {formatPostDate(p.data.pubDate, "short")} ·{" "}
+                {p.data.tags.join(", ")}
+              </div>
+            </div>
+          ))}
+        </section>
+      )
+    }
+    {
+      (previousPost || nextPost) && (
+        <nav class="post-navigation" aria-label="Post navigation">
+          {previousPost && (
+            <a
+              class="post-navigation-link previous-post"
+              href={`/blog/${previousPost.id}/`}
+              rel="prev"
+            >
+              <span class="post-navigation-label">← Previous Post</span>
+              <span>{previousPost.data.title}</span>
+            </a>
+          )}
+          {nextPost && (
+            <a
+              class="post-navigation-link next-post"
+              href={`/blog/${nextPost.id}/`}
+              rel="next"
+            >
+              <span class="post-navigation-label">Next Post →</span>
+              <span>{nextPost.data.title}</span>
+            </a>
+          )}
+        </nav>
+      )
+    }
+  </article>
+  {
+    hasTweetEmbeds && (
+      <script
+        is:inline
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8"
+      />
+    )
+  }
+</BaseLayout>
