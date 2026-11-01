@@ -35,7 +35,7 @@ The Links page builds from the committed `public/links.json` snapshot, also serv
 
 ## Remaining launch work
 
-There is currently **no GitHub Pages workflow**. Next steps are hosted staging, final URL/feed compatibility checks, and custom-domain/DNS/HTTPS configuration. The owner has reviewed the site's appearance and supplied biography, profiles, portrait, and hero imagery.
+A manual GitHub Pages staging workflow is included at `.github/workflows/staging.yml`. Next steps are enabling Pages, configuring the staging hostname and DigitalOcean CNAME, and running the hosted checks. Pushing commits alone does not deploy. The owner has reviewed the site's appearance and supplied biography, profiles, portrait, and hero imagery.
 
 Canonical URLs use the production domain by default. Set `SITE_URL` and `SITE_ENV=staging` for an isolated staging build. The branded 404 page is noindex. `/drought-relief` redirects to the retired project's article, and `/blog/rss/` redirects to `/rss.xml`. Static HTML redirects need additional hosted validation, particularly for feed readers.
 

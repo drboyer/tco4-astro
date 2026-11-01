@@ -22,9 +22,11 @@ Release-preparation code is complete. The owner has reviewed the site's overall 
 
 ## Hosted staging and final review
 
-- [ ] Push only the clean publication repository, then create a manual GitHub Pages workflow and isolated staging site.
+- [x] Push the clean publication repository to GitHub; `main` starts at the sanitized initial commit.
+- [x] Add and locally validate the manual staging workflow for `staging.thecloudonline.net`, with a Pages hostname guard.
+- [ ] Configure GitHub Pages, add the staging CNAME in DigitalOcean, and run the first hosted staging deployment. See `docs/PUBLISHING.md`.
 - [ ] Verify direct article loads, canonical origins, RSS, media, navigation, social profiles, mobile layout, and real HTTP 404 behavior on the host.
-- [ ] Resolve legacy-feed HTTP compatibility: static Pages produces HTML refresh redirects, which feed readers may not follow. For seamless subscriber migration, configure a real HTTP 301/302 from `/blog/rss/` to `/rss.xml` at a proxy/CDN, or migrate existing subscribers explicitly before retiring Ghost.
+- [x] Owner accepted the legacy RSS tradeoff on 2026-11-01: `/blog/rss/` remains an HTML refresh redirect that some feed readers may not follow. `/rss.xml` is the canonical working feed. No proxy/CDN redirect infrastructure is required for this launch.
 - [ ] Complete article-specific visual checks for tables, Twitter/X failure fallbacks, YouTube playback, and image alternative text. See `docs/ARTICLE_REVIEW.md`.
 - [ ] Approve the unrecovered Storify memorial fallback or supply replacement content.
 - [ ] Decide which failed/obsolete external destinations to update; see `docs/LINK_HEALTH.md`.
@@ -33,9 +35,9 @@ Release-preparation code is complete. The owner has reviewed the site's overall 
 ## Production cutover
 
 - [ ] Verify domain ownership; configure `thecloudonline.net` in Pages settings before changing web DNS.
-- [ ] Enable HTTPS and verify apex/`www`, redirects, feed migration, and final production URLs.
+- [ ] Enable HTTPS and verify apex/`www`, redirects, the new RSS feed, and final production URLs.
 - [ ] Back up Ghost's database, Nginx, images, and other VPS services; verify restoration.
 - [ ] Keep the VPS available for rollback for at least seven days and until propagation/checks pass; then approve retirement.
 - [ ] Optionally enable push-triggered deployments after launch.
 
-No Pages workflow, production DNS change, or VPS retirement is part of this release-preparation change set. A `public/CNAME` file does not configure a custom domain for Actions-based Pages publishing; use Pages settings.
+The staging workflow is manual-only. No production DNS change or VPS retirement has been performed. A `public/CNAME` file does not configure a custom domain for Actions-based Pages publishing; use Pages settings.
