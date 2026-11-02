@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PostCard from "../components/PostCard.astro";
+import { siteDescription } from "../config/site";
 import { getCollection } from "astro:content";
 const posts = (await getCollection("blog", ({ data }) => !data.draft))
     .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
@@ -10,9 +11,8 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft))
 <BaseLayout>
     <section class="hero">
         <div class="container">
-            <div class="eyebrow">Welcome to</div><h1>thecloudonline.net</h1><p>
-                A personal site about technology, weather and anything else that catches my attention.
-            </p><div class="accent-line"></div>
+            <div class="eyebrow">Welcome to</div><h1>thecloudonline.net</h1>
+            <p>{siteDescription}</p><div class="accent-line"></div>
         </div>
     </section>
     <section class="section">
