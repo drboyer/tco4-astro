@@ -70,6 +70,19 @@ Expected alias target: `drboyer.github.io`. `public/CNAME` is not used with Acti
 
 References: [GitHub custom-domain setup](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site), [DigitalOcean DNS records](https://docs.digitalocean.com/products/networking/dns/how-to/manage-records/).
 
+## Google Analytics
+
+The GA4 measurement ID lives in `src/config/site.ts`. `BaseLayout.astro` includes one asynchronous Google tag loader and initializes it once per page only when building with `SITE_ENV=production`. Local development, staging builds, and generated redirect pages do not include the tag. Navigation uses ordinary page loads, so no extra manual page-view event is needed.
+
+The production `publish.yml` workflow already sets `SITE_ENV=production`. To check the same output locally:
+
+```sh
+SITE_URL=https://thecloudonline.net SITE_ENV=production npm run build
+SITE_URL=https://thecloudonline.net SITE_ENV=production npm run verify:build
+```
+
+The build verifier checks the loader and measurement ID on production pages, checks for duplicate initialization, and ensures Analytics is absent from staging. After deploying, visit the live site and confirm events in Google Analytics Realtime or Google Tag Assistant.
+
 ## Compatibility and hosted acceptance
 
 | Old URL | New behavior |

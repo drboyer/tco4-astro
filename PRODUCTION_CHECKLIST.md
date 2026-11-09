@@ -24,13 +24,13 @@ Release-preparation code is complete. The owner has reviewed the site's overall 
 
 - [x] Push the clean publication repository to GitHub; `main` starts at the sanitized initial commit.
 - [x] Add and locally validate the manual staging workflow for `staging.thecloudonline.net`, with a Pages hostname guard.
-- [ ] Configure GitHub Pages, add the staging CNAME in DigitalOcean, and run the first hosted staging deployment. See `docs/PUBLISHING.md`.
-- [ ] Verify direct article loads, canonical origins, RSS, media, navigation, social profiles, mobile layout, and real HTTP 404 behavior on the host.
+- [x] Configure GitHub Pages, add the staging CNAME in DigitalOcean, and run the first hosted staging deployment. See `docs/PUBLISHING.md`.
+- [x] Verify direct article loads, canonical origins, RSS, media, navigation, social profiles, mobile layout, and real HTTP 404 behavior on the host.
 - [x] Owner accepted the legacy RSS tradeoff on 2026-11-01: `/blog/rss/` remains an HTML refresh redirect that some feed readers may not follow. `/rss.xml` is the canonical working feed. No proxy/CDN redirect infrastructure is required for this launch.
-- [ ] Complete article-specific visual checks for tables, Twitter/X failure fallbacks, YouTube playback, and image alternative text. See `docs/ARTICLE_REVIEW.md`.
-- [ ] Approve the unrecovered Storify memorial fallback or supply replacement content.
-- [ ] Decide which failed/obsolete external destinations to update; see `docs/LINK_HEALTH.md`.
-- [ ] Copy the original export and both drafts from the private development checkout into durable private backup storage.
+- [x] Complete article-specific visual checks for tables, Twitter/X failure fallbacks, YouTube playback, and image alternative text. See `docs/ARTICLE_REVIEW.md`.
+- [x] Approve the unrecovered Storify memorial fallback or supply replacement content.
+- [x] Decide which failed/obsolete external destinations to update; see `docs/LINK_HEALTH.md`.
+- [x] Copy the original export and both drafts from the private development checkout into durable private backup storage.
 
 ## Production cutover
 

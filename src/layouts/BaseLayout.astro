@@ -1,9 +1,10 @@
 ---
 import '../styles/global.css';
-import { siteName, siteDescription } from '../config/site';
+import { siteName, siteDescription, gaMeasurementId } from '../config/site';
 interface Props { title?: string; description?: string; noindex?: boolean; }
 const { title = siteName, description = siteDescription, noindex = false } = Astro.props;
 const isStaging = import.meta.env.SITE_ENV === 'staging';
+const enableAnalytics = import.meta.env.PROD && import.meta.env.SITE_ENV === 'production';
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const pageTitle = title === siteName ? title : `${title} | ${siteName}`;
 const pathname = Astro.url.pathname;
@@ -11,7 +12,21 @@ const pathname = Astro.url.pathname;
 const socials = { github: 'https://github.com/drboyer', linkedin: 'https://www.linkedin.com/in/drboyer', instagram: 'https://www.instagram.com/wxdevin/' };
 ---
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content={description}/>{(noindex || isStaging) && <meta name="robots" content="noindex, follow"/>}{!noindex && <link rel="canonical" href={canonical}/> }<link rel="alternate" type="application/rss+xml" title={`${siteName} RSS`} href="/rss.xml"/><title>{pageTitle}</title></head>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content={description}/>{(noindex || isStaging) && <meta name="robots" content="noindex, follow"/>}{!noindex && <link rel="canonical" href={canonical}/> }<link rel="alternate" type="application/rss+xml" title={`${siteName} RSS`} href="/rss.xml"/><title>{pageTitle}</title>
+{enableAnalytics && (
+  <>
+    <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}></script>
+    <script is:inline define:vars={{ gaMeasurementId }}>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () {
+        window.dataLayer.push(arguments);
+      };
+      window.gtag('js', new Date());
+      window.gtag('config', gaMeasurementId);
+    </script>
+  </>
+)}
+</head>
 <body>
 <header class="site-header"><div class="container header-inner"><a class="logo" href="/">{siteName}</a><nav aria-label="Primary navigation" class="nav"><a class:list={[pathname==='/'&&'active']} href="/">Home</a><a class:list={[pathname.startsWith('/blog')&&'active']} href="/blog/">Blog</a><a class:list={[pathname.startsWith('/links')&&'active']} href="/links/">Links</a></nav></div></header>
 <main><slot /></main>

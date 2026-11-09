@@ -15,6 +15,12 @@ ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
 SITE = os.environ.get('SITE_URL', 'https://thecloudonline.net').rstrip('/')
 STAGING = os.environ.get('SITE_ENV') == 'staging'
+ANALYTICS = os.environ.get('SITE_ENV') == 'production'
+GA_ID = subprocess.check_output([
+    'node', '--input-type=module', '-e',
+    "import { gaMeasurementId } from './src/config/site.ts'; process.stdout.write(gaMeasurementId);",
+], text=True, cwd=ROOT).strip()
+GA_SCRIPT = f'https://www.googletagmanager.com/gtag/js?id={GA_ID}'
 
 
 class Document(HTMLParser):
@@ -25,6 +31,8 @@ class Document(HTMLParser):
         self.robots = None
         self.refresh = None
         self.tweet_count = 0
+        self.inline_scripts = []
+        self.inline_script = None
         self.heading = None
         self.anchor = None
         self.feed(text)
@@ -36,6 +44,10 @@ class Document(HTMLParser):
         if tag == 'meta' and attrs.get('http-equiv', '').lower() == 'refresh': self.refresh = attrs['content']
         if tag == 'img': self.images.append(attrs['src'])
         if tag == 'script' and attrs.get('src'): self.scripts.append(attrs['src'])
+        if tag == 'script':
+            self.inline_script = None if attrs.get('src') else ''
+            if attrs.get('src') == GA_SCRIPT:
+                assert 'async' in attrs, 'Google Analytics loader must be asynchronous'
         if tag == 'blockquote' and 'twitter-tweet' in attrs.get('class', '').split():
             self.tweet_count += 1
         if tag == 'script' and attrs.get('src') == 'https://platform.twitter.com/widgets.js':
@@ -49,10 +61,14 @@ class Document(HTMLParser):
 
     def handle_data(self, text):
         self.text.append(text)
+        if self.inline_script is not None: self.inline_script += text
         if self.heading is not None: self.heading += text
         if self.anchor is not None: self.anchor[1] += text
 
     def handle_endtag(self, tag):
+        if tag == 'script' and self.inline_script is not None:
+            self.inline_scripts.append(self.inline_script)
+            self.inline_script = None
         if tag == 'h2' and self.heading is not None:
             self.headings.append(self.heading)
             self.heading = None
@@ -77,7 +93,7 @@ for post in posts:
         assert source_image in doc.images, f'Article image did not render: {post["slug"]}: {source_image}'
     expected_tweets = (post['body']).count('class="twitter-tweet"')
     assert doc.tweet_count == expected_tweets, f'Tweet blockquote fallback missing: {path}'
-    expected_scripts = ['https://platform.twitter.com/widgets.js'] if expected_tweets else []
+    expected_scripts = ([GA_SCRIPT] if ANALYTICS else []) + (['https://platform.twitter.com/widgets.js'] if expected_tweets else [])
     assert doc.scripts == expected_scripts, f'Missing, duplicate or unexpected widget script: {path}'
 for path in DIST.rglob('*.html'):
     for image in Document(path.read_text()).images:
@@ -103,6 +119,12 @@ assert {item.findtext('link') for item in items} == {f'{SITE}/blog/{post["slug"]
 # Ordinary HTML pages use query-free canonical URLs; the 404 is never indexed.
 for path in DIST.rglob('*.html'):
     doc = Document(path.read_text())
+    analytics_expected = ANALYTICS and doc.refresh is None
+    assert doc.scripts.count(GA_SCRIPT) == int(analytics_expected), f'Analytics loader missing, duplicated or enabled outside production: {path}'
+    initializers = [script for script in doc.inline_scripts if re.search(r'\bgtag\(\s*[\'\"]config[\'\"]', script)]
+    assert len(initializers) == int(analytics_expected), f'Analytics initialization missing, duplicated or enabled outside production: {path}'
+    if analytics_expected:
+        assert GA_ID in initializers[0], f'Wrong Analytics measurement ID: {path}'
     if path.name == '404.html':
         assert doc.robots and 'noindex' in doc.robots, '404 must be noindex'
         assert doc.canonical is None, '404 must not canonicalize unknown URLs'
@@ -122,4 +144,4 @@ for old, target in {
     assert any(href == target for href, _ in doc.anchors), f'Redirect lacks fallback: {old}'
 for path in DIST.rglob('*'):
     assert path.name not in {'.private', 'ghost-export.json', 'ghost-export.original.json', 'archive-repairs.json'}, f'Source leaked into build: {path}'
-print(f'Verified {len(posts)} published posts, media, Links, RSS, canonicals, 404, redirects and source exclusions (staging={STAGING})')
+print(f'Verified {len(posts)} published posts, media, Links, RSS, canonicals, 404, redirects, Analytics and source exclusions (staging={STAGING}, analytics={ANALYTICS})')
